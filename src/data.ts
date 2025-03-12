@@ -20,7 +20,7 @@ const protocols: Protocol[] = [
     name: "Astherus",
     listedAt: 1741711269,
     portfolioUrl: "https://www.astherus.finance/en/stage1/team",
-    module: "astherus",
+    module: "adapters/astherus.ts",
     defillama: {
       slug: "astherus-perps",
       description:
@@ -35,7 +35,7 @@ const protocols: Protocol[] = [
     name: "Bedrock",
     listedAt: 1741711269,
     portfolioUrl: "https://app.bedrock.technology",
-    module: "bedrock",
+    module: "adapters/bedrock.ts",
     defillama: {
       slug: "bedrock-unibtc",
       description: "BTC staked into babylon",
@@ -50,7 +50,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://usecorn.com/app",
     portfolioUrl: "https://usecorn.com/app",
-    module: "corn",
+    module: "adapters/corn.ts",
     defillama: {
       slug: "corn-kernels",
       description:
@@ -66,7 +66,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.dolomite.io/balances",
     portfolioUrl: "https://app.dolomite.io/balances",
-    module: "dolomite",
+    module: "adapters/dolomite.ts",
     defillama: {
       slug: "dolomite",
       description: "A next-gen money market and DeFi prime brokerage.",
@@ -82,7 +82,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.ether.fi",
     portfolioUrl: "https://app.ether.fi",
-    module: "etherfi",
+    module: "adapters/etherfi.ts",
     defillama: {
       slug: "ether.fi-vaults",
       description:
@@ -99,7 +99,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://gravityfinance.io/rewards",
     portfolioUrl: "https://gravityfinance.io/rewards",
-    module: "gravityfinance",
+    module: "adapters/gravityfinance.ts",
     defillama: {
       slug: "gravity-finance",
       description:
@@ -116,7 +116,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.henlo.com",
     portfolioUrl: "https://app.henlo.com",
-    module: "henlo",
+    module: "adapters/henlo.ts",
   },
   {
     id: 9,
@@ -124,7 +124,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.karak.network/portfolio",
     portfolioUrl: "https://app.karak.network/portfolio",
-    module: "karak",
+    module: "adapters/karak.ts",
     defillama: {
       slug: "karak",
       description:
@@ -140,7 +140,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://kelpdao.xyz/defi",
     portfolioUrl: "https://kelpdao.xyz/defi",
-    module: "kelpdao",
+    module: "adapters/kelpdao.ts",
     defillama: {
       slug: "kelp",
       description:
@@ -156,7 +156,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://www.lombard.finance/app/dashboard",
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
-    module: "lombard",
+    module: "adapters/lombard.ts",
     defillama: {
       slug: "lombard",
       description:
@@ -172,7 +172,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s2",
     portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s2",
-    module: "methprotocol",
+    module: "adapters/methprotocol.ts",
     defillama: {
       slug: "meth-protocol",
       description:
@@ -189,7 +189,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.ramen.finance/stake",
     portfolioUrl: "https://app.ramen.finance/stake",
-    module: "ramen",
+    module: "adapters/ramen.ts",
   },
   {
     id: 14,
@@ -197,7 +197,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.resolv.xyz/points",
     portfolioUrl: "https://app.resolv.xyz/points",
-    module: "resolv",
+    module: "adapters/resolv.ts",
     defillama: {
       slug: "resolv",
       description:
@@ -214,7 +214,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.solv.finance/points",
     portfolioUrl: "https://app.solv.finance/points",
-    module: "solv",
+    module: "adapters/solv.ts",
     defillama: {
       slug: "solvbtc",
       description: "Earn Solv Points By Staking Your BTC",
@@ -230,7 +230,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://my.soniclabs.com/points",
     portfolioUrl: "https://my.soniclabs.com/points",
-    module: "sonic",
+    module: "adapters/sonic.ts",
     defillama: {
       isChain: true,
       slug: "Sonic",
@@ -245,7 +245,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://www.superform.xyz/cred/",
     portfolioUrl: "https://www.superform.xyz/cred/",
-    module: "superform",
+    module: "adapters/superform.ts",
     defillama: {
       slug: "superform",
       description:
@@ -262,7 +262,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://swaps.io/",
     portfolioUrl: "https://swaps.io/",
-    module: "swapsio",
+    module: "adapters/swapsio.ts",
   },
 ];
 
