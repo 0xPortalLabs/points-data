@@ -257,12 +257,43 @@ const protocols: Protocol[] = [
   },
   {
     id: 18,
-    name: "Swapsio",
-    symbol: "SWAP",
+    name: "Swaps.io",
     listedAt: 1741711269,
     referralUrl: "https://swaps.io/",
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
+  },
+  {
+    id: 19,
+    name: "Silo Finance",
+    listedAt: 1742925546,
+    portfolioUrl: "https://points.silo.finance/",
+    module: "adapters/silofinance.ts",
+    defillama: {
+      slug: "silo-v2",
+      description:
+        "Silo Finance creates permissionless and risk-isolated lending markets.",
+      logo: "https://icons.llama.fi/silo-finance.png",
+      twitter: "SiloFinance",
+      url: "https://app.silo.finance",
+    },
+    symbol: "SILO",
+  },
+  {
+    id: 20,
+    name: "SwapX",
+    listedAt: 1742925546,
+    module: "adapters/swapx.ts",
+    portfolioUrl: "https://swapx.fi/airdrop",
+    defillama: {
+      slug: "swapx-v2",
+      description:
+        "SwapX, Sonic's native DEX, leverages Algebra V4 for advanced concentrated liquidity management and ve(3,3) tokenomics while pioneering modular DeFi with plugin technology",
+      logo: "https://icons.llama.fi/swapx-v2.jpg",
+      twitter: "SwapXfi",
+      url: "https://swapx.fi/",
+    },
+    symbol: "SWPX",
   },
 ];
 
