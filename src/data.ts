@@ -295,6 +295,73 @@ const protocols: Protocol[] = [
     },
     symbol: "SWPX",
   },
+  {
+    id: 21,
+    name: "Rings",
+    listedAt: 1743179811,
+    module: "adapters/rings.ts",
+    portfolioUrl: "https://app.rings.money/#/points",
+    defillama: {
+      slug: "rings",
+      description:
+        "Rings is a meta-stablecoin for USD & ETH offering competitive yield for stakers, providing deep liquidity for Sonic DeFi, and funding Sonic DeFi projects via its lockers.",
+      logo: "https://icons.llama.fi/rings.jpg",
+      twitter: "Rings_Protocol",
+      url: "https://rings.money/",
+    },
+  },
+  {
+    id: 22,
+    name: "Symbiotic",
+    listedAt: 1743179811,
+    module: "adapters/symbiotic.ts",
+    portfolioUrl: "https://app.symbiotic.fi/dashboard/positions",
+    defillama: {
+      slug: "symbiotic",
+      description:
+        "Symbiotic is a generalized shared security system enabling decentralized networks to bootstrap powerful, fully sovereign ecosystems.",
+      logo: "https://icons.llama.fi/symbiotic.png",
+      twitter: "symbioticfi",
+      url: "https://symbiotic.fi",
+    },
+  },
+  {
+    id: 23,
+    name: "Syrup",
+    listedAt: 1743179811,
+    module: "adapters/syrup.ts",
+    portfolioUrl: "https://syrup.fi/portfolio",
+  },
+  {
+    id: 24,
+    name: "Treehouse Protocol",
+    listedAt: 1743179811,
+    module: "adapters/treehouse.ts",
+    portfolioUrl: "https://app.treehouse.finance/portfolio",
+    defillama: {
+      slug: "treehouse-protocol",
+      description:
+        "Treehouse is a decentralized application that introduces Treehouse Assets (tAssets) and Decentralized Offered Rates (DOR), new primitives that enable fixed income products in digital assets.",
+      logo: "https://icons.llama.fi/treehouse-protocol.jpg",
+      twitter: "TreehouseFi",
+      url: "https://www.treehouse.finance/",
+    },
+  },
+  {
+    id: 25,
+    name: "Veda",
+    listedAt: 1743179811,
+    module: "adapters/veda.ts",
+    portfolioUrl: "https://app.veda.tech/points",
+    defillama: {
+      slug: "veda",
+      description:
+        "Veda is the leading DeFi vault platform, enabling crypto applications, asset issuers, and protocols to build consumer-grade cross chain yield products. Veda's technology is powering many of DeFi's largest vault products, including ether.fi Liquid, Lombard DeFi Vault, and Mantle cmETH",
+      logo: "https://icons.llama.fi/veda.png",
+      twitter: "veda_labs",
+      url: "https://veda.tech",
+    },
+  },
 ];
 
 export default protocols;
