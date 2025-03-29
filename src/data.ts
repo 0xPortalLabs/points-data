@@ -362,6 +362,21 @@ const protocols: Protocol[] = [
       url: "https://veda.tech",
     },
   },
+  {
+    id: 26,
+    name: "Ethereal",
+    listedAt: 1743287542,
+    module: "adapters/ethereal.ts",
+    portfolioUrl: "https://deposit.ethereal.trade/points",
+    defillama: {
+      slug: "ethereal",
+      description:
+        "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
+      logo: "https://icons.llama.fi/ethereal.png",
+      twitter: "etherealdex",
+      url: "https://www.ethereal.trade/",
+    },
+  },
 ];
 
 export default protocols;
