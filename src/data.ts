@@ -377,6 +377,21 @@ const protocols: Protocol[] = [
       url: "https://www.ethereal.trade/",
     },
   },
+  {
+    id: 27,
+    name: "Level Money",
+    listedAt: 1743333920,
+    module: "adapters/level.ts",
+    portfolioUrl: "https://app.level.money",
+    defillama: {
+      slug: "level",
+      description:
+        "Level is a yield-bearing stablecoin protocol powered by USDT and USDC deposited into DeFi-native sources.",
+      logo: "https://icons.llama.fi/level-money.jpg",
+      twitter: "levelusd",
+      url: "https://www.level.money",
+    },
+  },
 ];
 
 export default protocols;
