@@ -392,6 +392,20 @@ const protocols: Protocol[] = [
       url: "https://www.level.money",
     },
   },
+  {
+    id: 28,
+    name: "Taiko",
+    listedAt: 1743552397,
+    module: "adapters/taiko.ts",
+    portfolioUrl: "https://trailblazers.taiko.xyz/",
+    defillama: {
+      slug: "Taiko",
+      isChain: true,
+      description: "",
+      logo: null,
+      url: "https://taiko.xyz/",
+    },
+  },
 ];
 
 export default protocols;
