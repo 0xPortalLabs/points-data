@@ -406,6 +406,20 @@ const protocols: Protocol[] = [
       url: "https://taiko.xyz/",
     },
   },
+  {
+    id: 29,
+    name: "Jumper Exchange",
+    listedAt: 1744122637,
+    module: "adapters/jumperexchange.ts",
+    portfolioUrl: "https://jumper.exchange/profile",
+    defillama: {
+      slug: "jumper-exchange",
+      description: "Crypto's Everything Exchange",
+      logo: "https://icons.llama.fi/jumper-exchange.jpg",
+      twitter: "JumperExchange",
+      url: "https://jumper.exchange",
+    },
+  },
 ];
 
 export default protocols;
