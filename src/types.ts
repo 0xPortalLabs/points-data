@@ -5,6 +5,7 @@ export interface Protocol {
   listedAt: number;
   referralUrl?: string;
   portfolioUrl: string;
+  claimUrl?: string;
   module: string;
   defillama?: {
     isChain?: boolean;
