@@ -66,6 +66,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://app.dolomite.io/balances",
     portfolioUrl: "https://app.dolomite.io/balances",
+    claimUrl: "https://app.dolomite.io/airdrop",
     module: "adapters/dolomite.ts",
     defillama: {
       slug: "dolomite",
@@ -140,6 +141,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://kelpdao.xyz/defi",
     portfolioUrl: "https://kelpdao.xyz/defi",
+    claimUrl: "https://kerneldao.com/claim-airdrop/",
     module: "adapters/kelpdao.ts",
     defillama: {
       slug: "kelp",
@@ -190,6 +192,12 @@ const protocols: Protocol[] = [
     referralUrl: "https://app.ramen.finance/stake",
     portfolioUrl: "https://app.ramen.finance/stake",
     module: "adapters/ramen.ts",
+    defillama: {
+      description: "Token launchpad powering liquidity for next-gen protocols on Berachain.",
+      logo: "https://pbs.twimg.com/profile_images/1877431228409982981/ZCY6CT24_400x400.jpg",
+      url: "https://ramen.finance/",
+      twitter: "ramen_finance",
+    },
   },
   {
     id: 14,
@@ -234,9 +242,10 @@ const protocols: Protocol[] = [
     defillama: {
       isChain: true,
       slug: "Sonic",
-      description: "",
-      logo: "https://icons.llamao.fi/icons/chains/rsz_sonic",
+      description: "DeFi redefined. Sonic is the highest-performing EVM blockchain, combining speed, incentives, and world-class infrastructure.",
+      logo: "https://icons.llamao.fi/icons/chains/rsz_sonic.jpg",
       url: "https://www.soniclabs.com/",
+      twitter: "SonicLabs",
     },
   },
   {
@@ -262,6 +271,13 @@ const protocols: Protocol[] = [
     referralUrl: "https://swaps.io/",
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
+    defillama: {
+      description:
+        "Automate your swapping, staking, and minting actions across 150+ of your favorite dApps & enjoy a seamless UX",
+      logo: "https://pbs.twimg.com/profile_images/1710931572667584512/GWMzqBE0_400x400.png",
+      twitter: "swaps_io",
+      url: "https://swaps.io/",
+    },
   },
   {
     id: 19,
@@ -331,6 +347,12 @@ const protocols: Protocol[] = [
     listedAt: 1743179811,
     module: "adapters/syrup.ts",
     portfolioUrl: "https://syrup.fi/portfolio",
+    defillama: {
+      description:"Institutional yield, unlocked.",
+      logo: "https://pbs.twimg.com/profile_images/1808520906416979968/rys7ciQq_400x400.jpg",
+      twitter: "syrupfi",
+      url: "https://syrup.fi/",
+    },
   },
   {
     id: 24,
@@ -401,8 +423,9 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "Taiko",
       isChain: true,
-      description: "",
+      description: "The most developer-friendly and secure Ethereum scaling solution.",
       logo: "https://icons.llama.fi/taiko.png",
+      twitter: "taikoxyz",
       url: "https://taiko.xyz/",
     },
   },
