@@ -272,6 +272,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
     defillama: {
+      slug: "swaps-io",
       description:
         "Automate your swapping, staking, and minting actions across 150+ of your favorite dApps & enjoy a seamless UX",
       logo: "https://pbs.twimg.com/profile_images/1710931572667584512/GWMzqBE0_400x400.png",
