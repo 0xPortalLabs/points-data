@@ -194,7 +194,7 @@ const protocols: Protocol[] = [
     module: "adapters/ramen.ts",
     defillama: {
       description: "Token launchpad powering liquidity for next-gen protocols on Berachain.",
-      logo: "https://pbs.twimg.com/profile_images/1877431228409982981/ZCY6CT24_400x400.jpg",
+      logo: "https://miro.medium.com/v2/resize:fill:128:128/1*bVUWp4miIuMBX4MlqOChZA.png",
       url: "https://ramen.finance/",
       twitter: "ramen_finance",
     },
@@ -275,7 +275,7 @@ const protocols: Protocol[] = [
       slug: "swaps-io",
       description:
         "Automate your swapping, staking, and minting actions across 150+ of your favorite dApps & enjoy a seamless UX",
-      logo: "https://pbs.twimg.com/profile_images/1710931572667584512/GWMzqBE0_400x400.png",
+      logo: "https://avatars.githubusercontent.com/u/184085435?s=200&v=4",
       twitter: "swaps_io",
       url: "https://swaps.io/",
     },
@@ -350,7 +350,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://syrup.fi/portfolio",
     defillama: {
       description:"Institutional yield, unlocked.",
-      logo: "https://pbs.twimg.com/profile_images/1808520906416979968/rys7ciQq_400x400.jpg",
+      logo: "https://s2.coinmarketcap.com/static/img/coins/128x128/33824.png",
       twitter: "syrupfi",
       url: "https://syrup.fi/",
     },
