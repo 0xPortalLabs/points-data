@@ -17,12 +17,12 @@ const protocols: Protocol[] = [
   },
   {
     id: 2,
-    name: "Astherus",
+    name: "Aster",
     listedAt: 1741711269,
-    portfolioUrl: "https://www.astherus.finance/en/stage1/team",
+    portfolioUrl: "https://www.asterdex.com/en/stage1/team",
     module: "adapters/astherus.ts",
     defillama: {
-      slug: "astherus-perps",
+      slug: "aster-perps",
       description:
         "Astherus is a liquidity hub for staked assets such as LSTs (liquid staking tokens) and LRTs (liquid restaking tokens), aiming to scale their utilization and boost user profitability.",
       logo: "https://icons.llama.fi/astherus-perps.jpg",
@@ -193,7 +193,9 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.ramen.finance/stake",
     module: "adapters/ramen.ts",
     defillama: {
-      description: "Token launchpad powering liquidity for next-gen protocols on Berachain.",
+      slug: "",
+      description:
+        "Token launchpad powering liquidity for next-gen protocols on Berachain.",
       logo: "https://miro.medium.com/v2/resize:fill:128:128/1*bVUWp4miIuMBX4MlqOChZA.png",
       url: "https://ramen.finance/",
       twitter: "ramen_finance",
@@ -242,7 +244,8 @@ const protocols: Protocol[] = [
     defillama: {
       isChain: true,
       slug: "Sonic",
-      description: "DeFi redefined. Sonic is the highest-performing EVM blockchain, combining speed, incentives, and world-class infrastructure.",
+      description:
+        "DeFi redefined. Sonic is the highest-performing EVM blockchain, combining speed, incentives, and world-class infrastructure.",
       logo: "https://icons.llamao.fi/icons/chains/rsz_sonic.jpg",
       url: "https://www.soniclabs.com/",
       twitter: "SonicLabs",
@@ -272,7 +275,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
     defillama: {
-      slug: "swaps-io",
+      slug: "",
       description:
         "Automate your swapping, staking, and minting actions across 150+ of your favorite dApps & enjoy a seamless UX",
       logo: "https://avatars.githubusercontent.com/u/184085435?s=200&v=4",
@@ -349,7 +352,8 @@ const protocols: Protocol[] = [
     module: "adapters/syrup.ts",
     portfolioUrl: "https://syrup.fi/portfolio",
     defillama: {
-      description:"Institutional yield, unlocked.",
+      slug: "",
+      description: "Institutional yield, unlocked.",
       logo: "https://s2.coinmarketcap.com/static/img/coins/128x128/33824.png",
       twitter: "syrupfi",
       url: "https://syrup.fi/",
@@ -424,7 +428,8 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "Taiko",
       isChain: true,
-      description: "The most developer-friendly and secure Ethereum scaling solution.",
+      description:
+        "The most developer-friendly and secure Ethereum scaling solution.",
       logo: "https://icons.llama.fi/taiko.png",
       twitter: "taikoxyz",
       url: "https://taiko.xyz/",
@@ -442,6 +447,21 @@ const protocols: Protocol[] = [
       logo: "https://icons.llama.fi/jumper-exchange.jpg",
       twitter: "JumperExchange",
       url: "https://jumper.exchange",
+    },
+  },
+  {
+    id: 30,
+    name: "Infrared Finance",
+    listedAt: 1745509142,
+    module: "adapters/infrared.ts",
+    portfolioUrl: "https://infrared.finance/points",
+    defillama: {
+      slug: "infrared-finance",
+      description:
+        "Infrared is a decentralized protocol that allows users to earn yield on their assets by staking them in a decentralized manner.",
+      logo: "https://icons.llama.fi/infrared-finance.jpg",
+      twitter: "Infrared_Finance",
+      url: "https://infrared.finance",
     },
   },
 ];
