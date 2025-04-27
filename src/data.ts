@@ -464,6 +464,22 @@ const protocols: Protocol[] = [
       url: "https://infrared.finance",
     },
   },
+  {
+    id: 31,
+    name: "Ethena",
+    listedAt: 1745790801,
+    module: "adapters/ethena.ts",
+    portfolioUrl: "https://app.ethena.fi/",
+    defillama: {
+      slug: "ethena-usde",
+      description:
+        "Ethena is a decentralized protocol that allows users to earn yield on their assets by staking them in a decentralized manner.",
+      logo: "https://icons.llama.fi/ethena.png",
+      twitter: "Ethena_Protocol",
+      url: "https://ethena.xyz",
+    },
+    symbol: "ENA",
+  },
 ];
 
 export default protocols;
