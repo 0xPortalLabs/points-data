@@ -480,6 +480,21 @@ const protocols: Protocol[] = [
     },
     symbol: "ENA",
   },
+  {
+    id: 32,
+    name: "deBridge",
+    listedAt: 1746642287,
+    module: "adapters/debridge.ts",
+    portfolioUrl: "https://app.debridge.finance",
+    defillama: {
+      slug: "debridge",
+      description:
+        "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows the decentralized transfer of arbitrary data and assets between various blockchains",
+      logo: "https://icons.llama.fi/debridge.jpg",
+      twitter: "deBridgeFinance",
+      url: "https://debridge.finance",
+    },
+  },
 ];
 
 export default protocols;
