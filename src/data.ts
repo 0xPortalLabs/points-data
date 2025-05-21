@@ -22,11 +22,11 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://www.asterdex.com/en/stage1/team",
     module: "adapters/astherus.ts",
     defillama: {
-      slug: "aster-perps",
+      slug: "aster",
       description:
-        "Astherus is a liquidity hub for staked assets such as LSTs (liquid staking tokens) and LRTs (liquid restaking tokens), aiming to scale their utilization and boost user profitability.",
-      logo: "https://icons.llama.fi/astherus-perps.jpg",
-      url: "https://www.astherus.finance",
+        "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first",
+      logo: "https://icons.llama.fi/aster.jpg",
+      url: "https://www.asterdex.com/",
       twitter: "AstherusHub",
     },
   },
@@ -246,7 +246,7 @@ const protocols: Protocol[] = [
       slug: "Sonic",
       description:
         "DeFi redefined. Sonic is the highest-performing EVM blockchain, combining speed, incentives, and world-class infrastructure.",
-      logo: "https://icons.llamao.fi/icons/chains/rsz_sonic.jpg",
+      logo: "https://icons.llamao.fi/icons/chains/rsz_sonic",
       url: "https://www.soniclabs.com/",
       twitter: "SonicLabs",
     },
