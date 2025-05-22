@@ -19,6 +19,7 @@ const protocols: Protocol[] = [
     id: 2,
     name: "Aster",
     listedAt: 1741711269,
+    referralUrl: "https://www.asterdex.com/en/referral/1403b1",
     portfolioUrl: "https://www.asterdex.com/en/stage1/team",
     module: "adapters/astherus.ts",
     defillama: {
@@ -64,7 +65,6 @@ const protocols: Protocol[] = [
     id: 5,
     name: "Dolomite",
     listedAt: 1741711269,
-    referralUrl: "https://app.dolomite.io/balances",
     portfolioUrl: "https://app.dolomite.io/balances",
     claimUrl: "https://app.dolomite.io/airdrop",
     module: "adapters/dolomite.ts",
@@ -81,11 +81,12 @@ const protocols: Protocol[] = [
     name: "EtherFi",
     symbol: "ETHFI",
     listedAt: 1741711269,
-    referralUrl: "https://app.ether.fi",
+    referralUrl:
+      "https://app.ether.fi/weeth?address=0xd3be243c7b11cc0233af0caebac54b713d1403b1",
     portfolioUrl: "https://app.ether.fi",
     module: "adapters/etherfi.ts",
     defillama: {
-      slug: "ether.fi-vaults",
+      slug: "ether.fi-stake",
       description:
         "An automated vault that earns you Symbiotic, Veda or ether.fi points on your liquid staking assets.",
       logo: "https://icons.llama.fi/ether.fi-vaults.jpg",
@@ -98,7 +99,8 @@ const protocols: Protocol[] = [
     name: "Gravity Finance",
     symbol: "GFI",
     listedAt: 1741711269,
-    referralUrl: "https://gravityfinance.io/rewards",
+    referralUrl:
+      "https://gravityfinance.io/silov2?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://gravityfinance.io/rewards",
     module: "adapters/gravityfinance.ts",
     defillama: {
@@ -115,7 +117,6 @@ const protocols: Protocol[] = [
     name: "Henlo",
     symbol: "HEN",
     listedAt: 1741711269,
-    referralUrl: "https://app.henlo.com",
     portfolioUrl: "https://app.henlo.com",
     module: "adapters/henlo.ts",
   },
@@ -123,7 +124,6 @@ const protocols: Protocol[] = [
     id: 9,
     name: "Karak",
     listedAt: 1741711269,
-    referralUrl: "https://app.karak.network/portfolio",
     portfolioUrl: "https://app.karak.network/portfolio",
     module: "adapters/karak.ts",
     defillama: {
@@ -139,7 +139,8 @@ const protocols: Protocol[] = [
     id: 10,
     name: "KelpDAO",
     listedAt: 1741711269,
-    referralUrl: "https://kelpdao.xyz/defi",
+    referralUrl:
+      "https://kelpdao.xyz/restake/?utm_source=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://kelpdao.xyz/defi",
     claimUrl: "https://kerneldao.com/claim-airdrop/",
     module: "adapters/kelpdao.ts",
@@ -156,7 +157,7 @@ const protocols: Protocol[] = [
     id: 11,
     name: "Lombard",
     listedAt: 1741711269,
-    referralUrl: "https://www.lombard.finance/app/dashboard",
+    referralUrl: "https://www.lombard.finance/app/?referrer=pl7zti",
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
     module: "adapters/lombard.ts",
     defillama: {
@@ -172,8 +173,7 @@ const protocols: Protocol[] = [
     id: 12,
     name: "mETH Protocol",
     listedAt: 1741711269,
-    referralUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s2",
-    portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s2",
+    portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s3",
     module: "adapters/methprotocol.ts",
     defillama: {
       slug: "meth-protocol",
@@ -189,7 +189,6 @@ const protocols: Protocol[] = [
     name: "Ramen",
     symbol: "RAM",
     listedAt: 1741711269,
-    referralUrl: "https://app.ramen.finance/stake",
     portfolioUrl: "https://app.ramen.finance/stake",
     module: "adapters/ramen.ts",
     defillama: {
@@ -205,7 +204,7 @@ const protocols: Protocol[] = [
     id: 14,
     name: "Resolv",
     listedAt: 1741711269,
-    referralUrl: "https://app.resolv.xyz/points",
+    referralUrl: "https://app.resolv.xyz/ref/portal-labs",
     portfolioUrl: "https://app.resolv.xyz/points",
     module: "adapters/resolv.ts",
     defillama: {
@@ -222,7 +221,7 @@ const protocols: Protocol[] = [
     name: "Solv Finance",
     symbol: "SOLV",
     listedAt: 1741711269,
-    referralUrl: "https://app.solv.finance/points",
+    referralUrl: "https://app.solv.finance/points/MRNNDW",
     portfolioUrl: "https://app.solv.finance/points",
     module: "adapters/solv.ts",
     defillama: {
@@ -238,7 +237,6 @@ const protocols: Protocol[] = [
     name: "Sonic",
     symbol: "S",
     listedAt: 1741711269,
-    referralUrl: "https://my.soniclabs.com/points",
     portfolioUrl: "https://my.soniclabs.com/points",
     module: "adapters/sonic.ts",
     defillama: {
@@ -255,7 +253,6 @@ const protocols: Protocol[] = [
     id: 17,
     name: "Superform",
     listedAt: 1741711269,
-    referralUrl: "https://www.superform.xyz/cred/",
     portfolioUrl: "https://www.superform.xyz/cred/",
     module: "adapters/superform.ts",
     defillama: {
@@ -271,7 +268,6 @@ const protocols: Protocol[] = [
     id: 18,
     name: "Swaps.io",
     listedAt: 1741711269,
-    referralUrl: "https://swaps.io/",
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
     defillama: {
@@ -320,6 +316,8 @@ const protocols: Protocol[] = [
     name: "Rings",
     listedAt: 1743179811,
     module: "adapters/rings.ts",
+    referralUrl:
+      "https://app.rings.money/#/points?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://app.rings.money/#/points",
     defillama: {
       slug: "rings",
@@ -364,6 +362,7 @@ const protocols: Protocol[] = [
     name: "Treehouse Protocol",
     listedAt: 1743179811,
     module: "adapters/treehouse.ts",
+    referralUrl: "https://app.treehouse.finance/referral/E79CA",
     portfolioUrl: "https://app.treehouse.finance/portfolio",
     defillama: {
       slug: "treehouse-protocol",
@@ -409,6 +408,7 @@ const protocols: Protocol[] = [
     name: "Level Money",
     listedAt: 1743333920,
     module: "adapters/level.ts",
+    referralUrl: "https://app.level.money/farm?referralCode=1vfdc0",
     portfolioUrl: "https://app.level.money",
     defillama: {
       slug: "level",
@@ -469,6 +469,7 @@ const protocols: Protocol[] = [
     name: "Ethena",
     listedAt: 1745790801,
     module: "adapters/ethena.ts",
+    referralUrl: "https://app.ethena.fi/join/j9u8y",
     portfolioUrl: "https://app.ethena.fi/",
     defillama: {
       slug: "ethena-usde",
@@ -485,6 +486,7 @@ const protocols: Protocol[] = [
     name: "deBridge",
     listedAt: 1746642287,
     module: "adapters/debridge.ts",
+    referralUrl: "https://app.debridge.finance/r/31994",
     portfolioUrl: "https://app.debridge.finance",
     defillama: {
       slug: "debridge",
