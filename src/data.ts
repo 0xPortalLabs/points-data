@@ -100,7 +100,7 @@ const protocols: Protocol[] = [
     symbol: "GFI",
     listedAt: 1741711269,
     referralUrl:
-      "https://gravityfinance.io?chain=SONIC/silov2?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
+      "https://gravityfinance.io/silov2?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://gravityfinance.io/rewards",
     module: "adapters/gravityfinance.ts",
     defillama: {
