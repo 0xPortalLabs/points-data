@@ -497,6 +497,22 @@ const protocols: Protocol[] = [
       url: "https://debridge.finance",
     },
   },
+  {
+    id: 33,
+    name: "Spark",
+    listedAt: 1748200290,
+    module: "adapters/spark.ts",
+    referralUrl: "https://app.spark.fi/points/QTIFUX",
+    portfolioUrl: "https://app.spark.fi/points",
+    defillama: {
+      slug: "sparklend",
+      description:
+        "Spark is an at-scale stablecoin allocation engine capturing yield across DeFi, RWAs and exchanges. This yield is provided cross-chain to Savings USDS holders",
+      logo: "https://icons.llama.fi/sparklend.jpg",
+      twitter: "sparkdotfi",
+      url: "https://www.spark.fi/",
+    },
+  },
 ];
 
 export default protocols;
