@@ -75,6 +75,7 @@ const protocols: Protocol[] = [
       url: "https://dolomite.io",
       twitter: "Dolomite_io",
     },
+    symbol: "DOLO",
   },
   {
     id: 6,
@@ -183,6 +184,7 @@ const protocols: Protocol[] = [
       url: "https://www.mantle.xyz/meth",
       twitter: "0xMantle",
     },
+    symbol: "COOK",
   },
   {
     id: 13,
@@ -215,6 +217,7 @@ const protocols: Protocol[] = [
       url: "https://resolv.xyz/",
       twitter: "ResolvLabs",
     },
+    symbol: "RESOLV",
   },
   {
     id: 15,
@@ -253,7 +256,8 @@ const protocols: Protocol[] = [
     id: 17,
     name: "Superform",
     listedAt: 1741711269,
-    portfolioUrl: "https://www.superform.xyz/cred/",
+    portfolioUrl: "https://rewards.superform.xyz",
+    referralUrl: "https://app.superform.xyz/?ref=2eSYf5ugHvWCGTs3HRTNt",
     module: "adapters/superform.ts",
     defillama: {
       slug: "superform",
@@ -313,14 +317,14 @@ const protocols: Protocol[] = [
   },
   {
     id: 21,
-    name: "Rings",
+    name: "Trevee Earn",
     listedAt: 1743179811,
     module: "adapters/rings.ts",
     referralUrl:
       "https://app.rings.money/#/points?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://app.rings.money/#/points",
     defillama: {
-      slug: "rings",
+      slug: "trevee-earn",
       description:
         "Rings is a meta-stablecoin for USD & ETH offering competitive yield for stakers, providing deep liquidity for Sonic DeFi, and funding Sonic DeFi projects via its lockers.",
       logo: "https://icons.llama.fi/rings.jpg",
@@ -395,7 +399,7 @@ const protocols: Protocol[] = [
     module: "adapters/ethereal.ts",
     portfolioUrl: "https://deposit.ethereal.trade/points",
     defillama: {
-      slug: "ethereal",
+      slug: "ethereal-season-zero",
       description:
         "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
       logo: "https://icons.llama.fi/ethereal.png",
@@ -496,6 +500,7 @@ const protocols: Protocol[] = [
       twitter: "deBridgeFinance",
       url: "https://debridge.finance",
     },
+    symbol: "DBR",
   },
   {
     id: 33,
@@ -512,6 +517,7 @@ const protocols: Protocol[] = [
       twitter: "sparkdotfi",
       url: "https://www.spark.fi/",
     },
+    symbol: "SPK",
   },
 ];
 
