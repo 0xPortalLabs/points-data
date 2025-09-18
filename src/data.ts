@@ -326,10 +326,10 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "trevee-earn",
       description:
-        "Rings is a meta-stablecoin for USD & ETH offering competitive yield for stakers, providing deep liquidity for Sonic DeFi, and funding Sonic DeFi projects via its lockers.",
-      logo: "https://icons.llama.fi/rings.jpg",
-      twitter: "Rings_Protocol",
-      url: "https://rings.money/",
+        "Building a multi-chain scalable yield bearing meta-assets powered by Veda strategies and the best vote incentive marketplace.",
+      logo: "https://icons.llamao.fi/icons/protocols/trevee-earn.jpg",
+      twitter: "Trevee_xyz",
+      url: "https://trevee.xyz/",
     },
   },
   {
@@ -402,7 +402,7 @@ const protocols: Protocol[] = [
       slug: "ethereal-season-zero",
       description:
         "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
-      logo: "https://icons.llamao.fi/icons/protocols/ethereal-season-zero",
+      logo: "https://icons.llamao.fi/icons/protocols/ethereal-season-zero.png",
       twitter: "etherealdex",
       url: "https://www.ethereal.trade/",
     },
@@ -464,7 +464,7 @@ const protocols: Protocol[] = [
       description:
         "Infrared is a decentralized protocol that allows users to earn yield on their assets by staking them in a decentralized manner.",
       logo: "https://icons.llama.fi/infrared-finance.jpg",
-      twitter: "Infrared_Finance",
+      twitter: "InfraredFinance",
       url: "https://infrared.finance",
     },
   },
