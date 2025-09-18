@@ -25,10 +25,10 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "aster-perps",
       description:
-        "Astherus is a liquidity hub for staked assets such as LSTs (liquid staking tokens) and LRTs (liquid restaking tokens), aiming to scale their utilization and boost user profitability.",
+        "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first",
       logo: "https://icons.llama.fi/astherus-perps.jpg",
       url: "https://www.astherus.finance",
-      twitter: "AstherusHub",
+      twitter: "Aster_DEX",
     },
   },
   {
@@ -402,7 +402,7 @@ const protocols: Protocol[] = [
       slug: "ethereal-season-zero",
       description:
         "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
-      logo: "https://icons.llama.fi/ethereal.png",
+      logo: "https://icons.llamao.fi/icons/protocols/ethereal-season-zero",
       twitter: "etherealdex",
       url: "https://www.ethereal.trade/",
     },
@@ -497,7 +497,7 @@ const protocols: Protocol[] = [
       description:
         "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows the decentralized transfer of arbitrary data and assets between various blockchains",
       logo: "https://icons.llama.fi/debridge.jpg",
-      twitter: "deBridgeFinance",
+      twitter: "debridge",
       url: "https://debridge.finance",
     },
     symbol: "DBR",
