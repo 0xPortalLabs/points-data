@@ -387,7 +387,7 @@ const protocols: Protocol[] = [
       slug: "veda",
       description:
         "Veda is the leading DeFi vault platform, enabling crypto applications, asset issuers, and protocols to build consumer-grade cross chain yield products. Veda's technology is powering many of DeFi's largest vault products, including ether.fi Liquid, Lombard DeFi Vault, and Mantle cmETH",
-      logo: "https://icons.llama.fi/veda.png",
+      logo: "https://icons.llamao.fi/icons/protocols/veda.jpg",
       twitter: "veda_labs",
       url: "https://veda.tech",
     },
