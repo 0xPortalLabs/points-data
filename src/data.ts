@@ -30,6 +30,7 @@ const protocols: Protocol[] = [
       url: "https://www.astherus.finance",
       twitter: "AstherusHub",
     },
+    symbol: "ASTER",
   },
   {
     id: 3,
@@ -376,6 +377,7 @@ const protocols: Protocol[] = [
       twitter: "TreehouseFi",
       url: "https://www.treehouse.finance/",
     },
+    symbol: "TREE",
   },
   {
     id: 25,
