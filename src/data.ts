@@ -521,6 +521,21 @@ const protocols: Protocol[] = [
     },
     symbol: "SPK",
   },
+  {
+    id: 34,
+    name: "Kinetiq",
+    listedAt: 1761693007,
+    module: "adapters/kinetiq.ts",
+    portfolioUrl: "https://kinetiq.xyz/kPoints",
+    defillama: {
+      slug: "kinetiq-khype",
+      description:
+        "Kinetiq Earn puts your HYPE and kHYPE to work across leading DeFi protocols on HyperEVM, optimizing for the best risk-adjusted returns. Powered by Veda.",
+      logo: "https://icons.llama.fi/kinetiq-earn.jpg",
+      twitter: "kinetiq_xyz",
+      url: "https://kinetiq.xyz/",
+    },
+  },
 ];
 
 export default protocols;
