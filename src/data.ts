@@ -536,6 +536,20 @@ const protocols: Protocol[] = [
       url: "https://kinetiq.xyz/",
     },
   },
+  {
+    id: 35,
+    name: "hyperflow",
+    listedAt: 1761777901,
+    module: "adapters/hyperflow.ts",
+    portfolioUrl: "https://hyperflow.fun/points",
+    defillama: {
+      slug: "hyperflow",
+      description: "Hyperflow is a DEX and bridge aggregator for swapping and transferring assets to Hyperliquid",
+      logo: "https://icons.llama.fi/hyperflow.jpg",
+      twitter: "HyperFlow_fun",
+      url: "https://hyperflow.fun/"
+    }
+  }
 ];
 
 export default protocols;
