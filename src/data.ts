@@ -538,7 +538,7 @@ const protocols: Protocol[] = [
   },
   {
     id: 35,
-    name: "hyperflow",
+    name: "Hyperflow",
     listedAt: 1761777901,
     module: "adapters/hyperflow.ts",
     portfolioUrl: "https://hyperflow.fun/points",
@@ -548,6 +548,20 @@ const protocols: Protocol[] = [
       logo: "https://icons.llama.fi/hyperflow.jpg",
       twitter: "HyperFlow_fun",
       url: "https://hyperflow.fun/"
+    }
+  },
+  {
+    id: 36,
+    name: "Hypurr",
+    listedAt: 1761937565,
+    module: "adapters/hypurr.ts",
+    portfolioUrl: "https://app.hypurr.fi/points",
+      defillama: {
+      slug: "hypurrfi-pooled",
+      description: "Collateralize borrowing positions and loop and lever up your yield",
+      logo: "https://icons.llama.fi/hypurrfi-pooled.jpg",
+      twitter: "hypurrfi",
+      url: "https://hypurr.fi"
     }
   }
 ];
