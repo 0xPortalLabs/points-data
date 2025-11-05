@@ -544,11 +544,12 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://hyperflow.fun/points",
     defillama: {
       slug: "hyperflow",
-      description: "Hyperflow is a DEX and bridge aggregator for swapping and transferring assets to Hyperliquid",
+      description:
+        "Hyperflow is a DEX and bridge aggregator for swapping and transferring assets to Hyperliquid",
       logo: "https://icons.llama.fi/hyperflow.jpg",
       twitter: "HyperFlow_fun",
-      url: "https://hyperflow.fun/"
-    }
+      url: "https://hyperflow.fun/",
+    },
   },
   {
     id: 36,
@@ -556,14 +557,30 @@ const protocols: Protocol[] = [
     listedAt: 1761937565,
     module: "adapters/hypurr.ts",
     portfolioUrl: "https://app.hypurr.fi/points",
-      defillama: {
+    defillama: {
       slug: "hypurrfi-pooled",
-      description: "Collateralize borrowing positions and loop and lever up your yield",
+      description:
+        "Collateralize borrowing positions and loop and lever up your yield",
       logo: "https://icons.llama.fi/hypurrfi-pooled.jpg",
       twitter: "hypurrfi",
-      url: "https://hypurr.fi"
-    }
-  }
+      url: "https://hypurr.fi",
+    },
+  },
+  {
+    id: 37,
+    name: "Cap",
+    listedAt: 1762378380,
+    module: "adapters/cap.ts",
+    portfolioUrl: "https://cap.app/caps",
+    defillama: {
+      slug: "cap",
+      description:
+        "Cap is a stablecoin protocol that provides credible financial guarantees via two products: the dollar-denominated cUSD and the yield-bearing stcUSD.",
+      logo: "https://icons.llama.fi/cap.jpg",
+      twitter: "capmoney_",
+      url: "https://cap.app/",
+    },
+  },
 ];
 
 export default protocols;
