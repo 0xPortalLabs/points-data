@@ -581,6 +581,20 @@ const protocols: Protocol[] = [
       url: "https://cap.app/",
     },
   },
+  {
+    id: 38,
+    name: "Felix",
+    listedAt: 1762470838,
+    module: "adapters/felix.ts",
+    portfolioUrl: "https://www.usefelix.xyz/points",
+    defillama: {
+      slug: "felix-usdhl",
+      description: "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
+      logo: "https://icons.llama.fi/felix-usdhl.jpg",
+      twitter: "usd_hl",
+      url: "https://www.usefelix.xyz?ref=4BF702FF"
+    }
+  }
 ];
 
 export default protocols;
