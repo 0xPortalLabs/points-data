@@ -5,7 +5,7 @@ const protocols: Protocol[] = [
     id: 1,
     name: "Avalon Finance",
     listedAt: 1741711269,
-    portfolioUrl: "https://app.avalonfinance.xyz/points",
+    portfolioUrl: "https://app.avalonfinance.xyz/rewards",
     module: "adapters/avalon.ts",
     defillama: {
       slug: "avalon-finance",
@@ -274,6 +274,7 @@ const protocols: Protocol[] = [
     name: "Swaps.io",
     listedAt: 1741711269,
     portfolioUrl: "https://swaps.io/",
+    referralUrl:"https://swaps.io/referral/0xd3be243c7b11cc0233af0caebac54b713d1403b1?f=668467",
     module: "adapters/swapsio.ts",
     defillama: {
       slug: "",
@@ -353,7 +354,7 @@ const protocols: Protocol[] = [
     name: "Syrup",
     listedAt: 1743179811,
     module: "adapters/syrup.ts",
-    portfolioUrl: "https://syrup.fi/portfolio",
+    portfolioUrl: "https://app.maple.finance/earn/portfolio",
     defillama: {
       slug: "",
       description: "Institutional yield, unlocked.",
@@ -542,6 +543,7 @@ const protocols: Protocol[] = [
     listedAt: 1761777901,
     module: "adapters/hyperflow.ts",
     portfolioUrl: "https://hyperflow.fun/points",
+    referralUrl:"https://hyperflow.fun?ref=A3GGq",
     defillama: {
       slug: "hyperflow",
       description:
