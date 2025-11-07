@@ -9,7 +9,7 @@ const DATA_FILE = path.join(
   new URL(".", import.meta.url).pathname,
   "..",
   "src",
-  "data.ts"
+  "data.ts",
 );
 
 (async () => {
@@ -22,10 +22,10 @@ const DATA_FILE = path.join(
     ).json();
 
     const protocolsMap = new Map<string, Record<string, string>>(
-      resProtocols.map((x: Record<string, string>) => [x.slug, x])
+      resProtocols.map((x: Record<string, string>) => [x.slug, x]),
     );
     const chainsMap = new Map<string, Record<string, string>>(
-      resChains.map((x: Record<string, string>) => [x.name, x])
+      resChains.map((x: Record<string, string>) => [x.name, x]),
     );
 
     const updatedProtocols = await Promise.all(
@@ -47,7 +47,7 @@ const DATA_FILE = path.join(
             await fetch("https://api.coingecko.com/api/v3/asset_platforms")
           ).json();
           const match = res.find(
-            (p: any) => p.native_coin_id === llama.gecko_id
+            (p: any) => p.native_coin_id === llama.gecko_id,
           );
 
           logo = match?.image?.thumb || null;
@@ -69,7 +69,7 @@ const DATA_FILE = path.join(
             url: defillama.url || llama.url!,
           },
         };
-      })
+      }),
     );
 
     const file = `import type { Protocol } from "./types.ts";

@@ -274,7 +274,8 @@ const protocols: Protocol[] = [
     name: "Swaps.io",
     listedAt: 1741711269,
     portfolioUrl: "https://swaps.io/",
-    referralUrl:"https://swaps.io/referral/0xd3be243c7b11cc0233af0caebac54b713d1403b1?f=668467",
+    referralUrl:
+      "https://swaps.io/referral/0xd3be243c7b11cc0233af0caebac54b713d1403b1?f=668467",
     module: "adapters/swapsio.ts",
     defillama: {
       slug: "",
@@ -543,7 +544,7 @@ const protocols: Protocol[] = [
     listedAt: 1761777901,
     module: "adapters/hyperflow.ts",
     portfolioUrl: "https://hyperflow.fun/points",
-    referralUrl:"https://hyperflow.fun?ref=A3GGq",
+    referralUrl: "https://hyperflow.fun?ref=A3GGq",
     defillama: {
       slug: "hyperflow",
       description:
@@ -591,12 +592,13 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://www.usefelix.xyz/points",
     defillama: {
       slug: "felix-usdhl",
-      description: "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
+      description:
+        "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
       logo: "https://icons.llama.fi/felix-usdhl.jpg",
       twitter: "usd_hl",
-      url: "https://www.usefelix.xyz?ref=4BF702FF"
-    }
-  }
+      url: "https://www.usefelix.xyz?ref=4BF702FF",
+    },
+  },
 ];
 
 export default protocols;
