@@ -477,6 +477,7 @@ const protocols: Protocol[] = [
     module: "adapters/ethena.ts",
     referralUrl: "https://app.ethena.fi/join/j9u8y",
     portfolioUrl: "https://app.ethena.fi/",
+    claimUrl: "https://ethena.liquifi.finance/",
     defillama: {
       slug: "ethena-usde",
       description:
@@ -589,12 +590,13 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://www.usefelix.xyz/points",
     defillama: {
       slug: "felix-usdhl",
-      description: "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
+      description:
+        "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
       logo: "https://icons.llama.fi/felix-usdhl.jpg",
       twitter: "usd_hl",
-      url: "https://www.usefelix.xyz?ref=4BF702FF"
-    }
-  }
+      url: "https://www.usefelix.xyz?ref=4BF702FF",
+    },
+  },
 ];
 
 export default protocols;
