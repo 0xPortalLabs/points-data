@@ -177,6 +177,8 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s3",
     module: "adapters/methprotocol.ts",
+    referralUrl:
+      "https://app.methprotocol.xyz/campaigns/methamorphosis-s3/c1eM098z08",
     defillama: {
       slug: "meth-protocol",
       description:
@@ -274,8 +276,6 @@ const protocols: Protocol[] = [
     name: "Swaps.io",
     listedAt: 1741711269,
     portfolioUrl: "https://swaps.io/",
-    referralUrl:
-      "https://swaps.io/referral/0xd3be243c7b11cc0233af0caebac54b713d1403b1?f=668467",
     module: "adapters/swapsio.ts",
     defillama: {
       slug: "",
@@ -402,6 +402,7 @@ const protocols: Protocol[] = [
     listedAt: 1743287542,
     module: "adapters/ethereal.ts",
     portfolioUrl: "https://deposit.ethereal.trade/points",
+    referralUrl: "https://deposit.ethereal.trade/waitlist?ref=OAE517",
     defillama: {
       slug: "ethereal-season-zero",
       description:
@@ -591,13 +592,14 @@ const protocols: Protocol[] = [
     listedAt: 1762470838,
     module: "adapters/felix.ts",
     portfolioUrl: "https://www.usefelix.xyz/points",
+    referralUrl: "https://www.usefelix.xyz?ref=4BF702FF",
     defillama: {
       slug: "felix-usdhl",
       description:
         "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
       logo: "https://icons.llama.fi/felix-usdhl.jpg",
       twitter: "usd_hl",
-      url: "https://www.usefelix.xyz?ref=4BF702FF",
+      url: "https://www.usefelix.xyz",
     },
   },
 ];
