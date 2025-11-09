@@ -596,7 +596,7 @@ const protocols: Protocol[] = [
         "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
       logo: "https://icons.llama.fi/felix-usdhl.jpg",
       twitter: "usd_hl",
-      url: "https://www.usefelix.xyz?ref=4BF702FF",
+      url: "https://www.usefelix.xyz",
     },
   },
 ];
