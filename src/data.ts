@@ -592,7 +592,6 @@ const protocols: Protocol[] = [
     listedAt: 1762470838,
     module: "adapters/felix.ts",
     portfolioUrl: "https://www.usefelix.xyz/points",
-    referralUrl: "https://www.usefelix.xyz?ref=4BF702FF",
     defillama: {
       slug: "felix-usdhl",
       description:
