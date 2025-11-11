@@ -597,6 +597,13 @@ const protocols: Protocol[] = [
       url: "https://www.usefelix.xyz?ref=4BF702FF",
     },
   },
+  {
+    id: 39,
+    name: "Nansen",
+    listedAt: 1762896477,
+    module: "adapters/nansen.ts",
+    portfolioUrl: "https://app.nansen.ai/points",
+  },
 ];
 
 export default protocols;
