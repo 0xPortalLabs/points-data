@@ -5,7 +5,7 @@ const protocols: Protocol[] = [
     id: 1,
     name: "Avalon Finance",
     listedAt: 1741711269,
-    portfolioUrl: "https://app.avalonfinance.xyz/points",
+    portfolioUrl: "https://app.avalonfinance.xyz/rewards",
     module: "adapters/avalon.ts",
     defillama: {
       slug: "avalon-finance",
@@ -177,6 +177,8 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s3",
     module: "adapters/methprotocol.ts",
+    referralUrl:
+      "https://app.methprotocol.xyz/campaigns/methamorphosis-s3/c1eM098z08",
     defillama: {
       slug: "meth-protocol",
       description:
@@ -353,7 +355,7 @@ const protocols: Protocol[] = [
     name: "Syrup",
     listedAt: 1743179811,
     module: "adapters/syrup.ts",
-    portfolioUrl: "https://syrup.fi/portfolio",
+    portfolioUrl: "https://app.maple.finance/earn/portfolio",
     defillama: {
       slug: "",
       description: "Institutional yield, unlocked.",
@@ -400,6 +402,7 @@ const protocols: Protocol[] = [
     listedAt: 1743287542,
     module: "adapters/ethereal.ts",
     portfolioUrl: "https://deposit.ethereal.trade/points",
+    referralUrl: "https://deposit.ethereal.trade/waitlist?ref=OAE517",
     defillama: {
       slug: "ethereal-season-zero",
       description:
@@ -543,6 +546,7 @@ const protocols: Protocol[] = [
     listedAt: 1761777901,
     module: "adapters/hyperflow.ts",
     portfolioUrl: "https://hyperflow.fun/points",
+    referralUrl: "https://hyperflow.fun?ref=A3GGq",
     defillama: {
       slug: "hyperflow",
       description:
@@ -594,7 +598,7 @@ const protocols: Protocol[] = [
         "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
       logo: "https://icons.llama.fi/felix-usdhl.jpg",
       twitter: "usd_hl",
-      url: "https://www.usefelix.xyz?ref=4BF702FF",
+      url: "https://www.usefelix.xyz",
     },
   },
   {
