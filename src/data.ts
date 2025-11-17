@@ -612,7 +612,7 @@ const protocols: Protocol[] = [
     id: 40,
     name: "Pjrx",
     listedAt: 1763414117,
-    module: "adapter/pjrx.ts",
+    module: "adapters/pjrx.ts",
     portfolioUrl: "https://www.prjx.com/portfolio",
   },
 ];
