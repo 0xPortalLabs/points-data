@@ -608,6 +608,13 @@ const protocols: Protocol[] = [
     module: "adapters/nansen.ts",
     portfolioUrl: "https://app.nansen.ai/points",
   },
+  {
+    id: 40,
+    name: "Pjrx",
+    listedAt: 1763414117,
+    module: "adapter/pjrx.ts",
+    portfolioUrl: "https://www.prjx.com/portfolio",
+  },
 ];
 
 export default protocols;
