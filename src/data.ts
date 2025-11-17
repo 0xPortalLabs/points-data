@@ -620,7 +620,7 @@ const protocols: Protocol[] = [
     id: 40,
     name: "Project X",
     listedAt: 1763414117,
-    module: "adapters/pjrx.ts",
+    module: "adapters/prjx.ts",
     portfolioUrl: "https://www.prjx.com/portfolio",
     defillama: {
       slug: "",
