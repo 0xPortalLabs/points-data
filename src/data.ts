@@ -607,6 +607,29 @@ const protocols: Protocol[] = [
     listedAt: 1762896477,
     module: "adapters/nansen.ts",
     portfolioUrl: "https://app.nansen.ai/points",
+    defillama: {
+      slug: "",
+      description:
+        "Nansen is a leading onchain analytics platform custom-built for blockchain ecosystems, serving as a building block for wallet labeling, transaction tracking, smart alerts, and more.",
+      logo: "https://cdn.app.nansen.ai/assets/static/images/logo.svg",
+      twitter: "nansen_ai",
+      url: "https://app.nansen.ai/",
+    },
+  },
+  {
+    id: 40,
+    name: "Project X",
+    listedAt: 1763414117,
+    module: "adapters/prjx.ts",
+    portfolioUrl: "https://www.prjx.com/portfolio",
+    defillama: {
+      slug: "",
+      description:
+        "PRJX is a zero-fee DEX custom-built for the HyperEVM ecosystem, serving as a building block for swaps, bridging, liquidity provision, and more.",
+      logo: "https://www.prjx.com/assets/phase2/logos/prjx-dark-logo-48.svg",
+      twitter: "prjx_hl",
+      url: "https://www.prjx.com",
+    },
   },
 ];
 
