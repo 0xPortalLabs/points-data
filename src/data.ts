@@ -498,6 +498,7 @@ const protocols: Protocol[] = [
     module: "adapters/debridge.ts",
     referralUrl: "https://app.debridge.finance/r/31994",
     portfolioUrl: "https://app.debridge.finance",
+    claimUrl: "https://debridge.foundation/checker",
     defillama: {
       slug: "debridge",
       description:
