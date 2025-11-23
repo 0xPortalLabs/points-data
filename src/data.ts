@@ -632,6 +632,22 @@ const protocols: Protocol[] = [
       url: "https://www.prjx.com",
     },
   },
+  {
+    id: 41,
+    name: "Galxe",
+    listedAt: 1763934547,
+    module: "adapters/galxe.ts",
+    portfolioUrl: "https://app.galxe.com/hub",
+    defillama: {
+      slug: "gravity-by-galxe",
+      description:
+        "Gravity, built by Galxe, is an omnichannel settlement layer designed for mass adoption. It uses Zero-Knowledge Proofs, staking architecture, and advanced consensus mechanisms for high performance.",
+      logo: "https://icons.llama.fi/gravity-by-galxe.png",
+      twitter: "GravityChain",
+      url: "https://gravity.xyz/",
+    },
+    symbol: "G",
+  },
 ];
 
 export default protocols;
