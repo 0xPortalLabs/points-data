@@ -635,18 +635,16 @@ const protocols: Protocol[] = [
   {
     id: 41,
     name: "Galxe",
-    listedAt: 1763934547,
+    listedAt: 1763414117,
     module: "adapters/galxe.ts",
     portfolioUrl: "https://app.galxe.com/hub",
     defillama: {
-      slug: "gravity-by-galxe",
-      description:
-        "Gravity, built by Galxe, is an omnichannel settlement layer designed for mass adoption. It uses Zero-Knowledge Proofs, staking architecture, and advanced consensus mechanisms for high performance.",
-      logo: "https://icons.llama.fi/gravity-by-galxe.png",
-      twitter: "GravityChain",
-      url: "https://gravity.xyz/",
+      slug: "",
+      description: "The leading web3 growth platform.",
+      logo: "",
+      twitter: "galxe",
+      url: "https://www.galxe.com/",
     },
-    symbol: "G",
   },
 ];
 
