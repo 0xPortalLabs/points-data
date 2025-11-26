@@ -632,6 +632,20 @@ const protocols: Protocol[] = [
       url: "https://www.prjx.com",
     },
   },
+  {
+    id: 41,
+    name: "Galxe",
+    listedAt: 1763414117,
+    module: "adapters/galxe.ts",
+    portfolioUrl: "https://app.galxe.com/hub",
+    defillama: {
+      slug: "",
+      description: "The leading web3 growth platform.",
+      logo: "",
+      twitter: "galxe",
+      url: "https://www.galxe.com/",
+    },
+  },
 ];
 
 export default protocols;
