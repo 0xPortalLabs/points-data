@@ -646,6 +646,22 @@ const protocols: Protocol[] = [
       url: "https://www.galxe.com/",
     },
   },
+  {
+    id: 43,
+    name: "Harmonix Finance",
+    listedAt: 1764713260,
+    module: "adapters/harmonix.ts",
+    portfolioUrl: "https://app.harmonix.fi/points",
+    claimUrl: "https://claim.harmonix.fi/",
+    defillama: {
+      slug: "harmonix-finance",
+      description:
+        "Harmonix Finance is where TradFi meets DeFi: automated vaults, smart strategies, and max gains with min risk. We are building efficient hedge fund on-chain derivatives pools using hedge fund strategies (like options wheel & delta neutral) where users deposit fund and receive high yield & multiple tokens airdrop",
+      logo: "https://icons.llama.fi/harmonix-finance.png",
+      twitter: "harmonixfi",
+      url: "https://app.harmonix.fi/?ref=s4rk2Hrs",
+    },
+  },
 ];
 
 export default protocols;
