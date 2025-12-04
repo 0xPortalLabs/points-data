@@ -647,7 +647,7 @@ const protocols: Protocol[] = [
     },
   },
   {
-    id: 43,
+    id: 42,
     name: "Harmonix Finance",
     listedAt: 1764713260,
     module: "adapters/harmonix.ts",
