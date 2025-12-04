@@ -21,6 +21,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://www.asterdex.com/en/referral/1403b1",
     portfolioUrl: "https://www.asterdex.com/en/stage1/team",
+    claimUrl: "https://www.asterdex.com/en/airdrop",
     module: "adapters/astherus.ts",
     defillama: {
       slug: "aster-perps",
