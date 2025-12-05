@@ -465,6 +465,7 @@ const protocols: Protocol[] = [
     listedAt: 1745509142,
     module: "adapters/infrared.ts",
     portfolioUrl: "https://infrared.finance/points",
+    claimUrl: "https://infrared.finance/points",
     defillama: {
       slug: "infrared-finance",
       description:
