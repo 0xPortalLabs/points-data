@@ -664,6 +664,21 @@ const protocols: Protocol[] = [
       url: "https://app.harmonix.fi/",
     },
   },
+  {
+    id: 43,
+    name: "Mellow",
+    listedAt: 1763414117,
+    module: "adapters/mellow.ts",
+    portfolioUrl: "https://app.mellow.finance/dashboard",
+    defillama: {
+      slug: "mellow-yield",
+      description:
+        "Mellow Protocol is a permissionless system for active liquidity management and building trustless automatic DeFi strategies",
+      logo: "https://icons.llama.fi/mellow-yield.jpg",
+      twitter: "mellowprotocol",
+      url: "https://mellow.finance",
+    },
+  },
 ];
 
 export default protocols;
