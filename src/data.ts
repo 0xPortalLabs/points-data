@@ -271,6 +271,7 @@ const protocols: Protocol[] = [
       url: "https://www.superform.xyz/",
       twitter: "superformxyz",
     },
+    symbol: "UP",
   },
   {
     id: 18,
@@ -667,7 +668,7 @@ const protocols: Protocol[] = [
   {
     id: 43,
     name: "Mellow",
-    listedAt: 1763414117,
+    listedAt: 1765131923,
     module: "adapters/mellow.ts",
     portfolioUrl: "https://app.mellow.finance/dashboard",
     defillama: {
@@ -677,6 +678,21 @@ const protocols: Protocol[] = [
       logo: "https://icons.llama.fi/mellow-yield.jpg",
       twitter: "mellowprotocol",
       url: "https://mellow.finance",
+    },
+  },
+  {
+    id: 44,
+    name: "Doma",
+    listedAt: 1765994806,
+    module: "adapters/doma.ts",
+    portfolioUrl: "https://app.doma.xyz/profile/",
+    defillama: {
+      slug: "doma",
+      description:
+        "Doma is a DomainFi protocol enabling fractionalization of web3 domains on the Doma L2 (Chain ID: 97477).",
+      logo: "https://icons.llama.fi/doma.jpg",
+      twitter: "domaprotocol",
+      url: "https://doma.xyz",
     },
   },
 ];
