@@ -669,7 +669,7 @@ const protocols: Protocol[] = [
   {
     id: 43,
     name: "Mellow",
-    listedAt: 1765131923,
+    listedAt: 1763414117,
     module: "adapters/mellow.ts",
     portfolioUrl: "https://app.mellow.finance/dashboard",
     defillama: {
