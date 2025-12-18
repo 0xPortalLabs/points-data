@@ -188,7 +188,6 @@ const protocols: Protocol[] = [
       url: "https://www.mantle.xyz/meth",
       twitter: "0xMantle",
     },
-    symbol: "COOK",
   },
   {
     id: 13,
@@ -678,6 +677,36 @@ const protocols: Protocol[] = [
       logo: "https://icons.llama.fi/mellow-yield.jpg",
       twitter: "mellowprotocol",
       url: "https://mellow.finance",
+    },
+  },
+  {
+    id: 44,
+    name: "Infinifi",
+    listedAt: 1766076106,
+    module: "adapters/infinifi.ts",
+    portfolioUrl: "https://app.infinifi.xyz/points",
+    defillama: {
+      slug: "infinifi",
+      description:
+        "infiniFi is building the future of decentralized finance by recreating modern banking infrastructure—on-chain. By merging liquid and illiquid assets into a capital-efficient system with transparent fractional reserves, infiniFi delivers superior yields to depositors without increasing systemic risk. Founded in 2024, infiniFi is backed by top Web3 investors and is integrated with major protocols like AAVE, Pendle, and Ethena.",
+      logo: "https://icons.llama.fi/infinifi.jpg",
+      twitter: "infiniFi",
+      url: "https://infinifi.xyz/",
+    },
+  },
+  {
+    id: 45,
+    name: "Around The World",
+    listedAt: 1766076106,
+    module: "adapters/aroundtw.ts",
+    portfolioUrl: "https://www.aroundtheworld.fun/",
+    defillama: {
+      slug: "",
+      description:
+        "Around The World, a play-to-earn climbing game mini-app built on the Base blockchain where players compete on leaderboards to earn rewards.",
+      logo: "https://www.aroundtheworld.fun/favicon.ico",
+      twitter: "aroundMiniapp",
+      url: "https://www.aroundtheworld.fun/",
     },
   },
 ];
