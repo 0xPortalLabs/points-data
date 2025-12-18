@@ -270,6 +270,7 @@ const protocols: Protocol[] = [
       url: "https://www.superform.xyz/",
       twitter: "superformxyz",
     },
+    symbol: "UP",
   },
   {
     id: 18,
@@ -681,6 +682,21 @@ const protocols: Protocol[] = [
   },
   {
     id: 44,
+    name: "Doma",
+    listedAt: 1765994806,
+    module: "adapters/doma.ts",
+    portfolioUrl: "https://app.doma.xyz/profile/",
+    defillama: {
+      slug: "doma",
+      description:
+        "Doma is a DomainFi protocol enabling fractionalization of web3 domains on the Doma L2 (Chain ID: 97477).",
+      logo: "https://icons.llama.fi/doma.jpg",
+      twitter: "domaprotocol",
+      url: "https://doma.xyz",
+    },
+  },
+  {
+    id: 45,
     name: "Infinifi",
     listedAt: 1766076106,
     module: "adapters/infinifi.ts",
@@ -695,7 +711,7 @@ const protocols: Protocol[] = [
     },
   },
   {
-    id: 45,
+    id: 46,
     name: "Around The World",
     listedAt: 1766076106,
     module: "adapters/aroundtw.ts",
