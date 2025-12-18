@@ -188,6 +188,7 @@ const protocols: Protocol[] = [
       url: "https://www.mantle.xyz/meth",
       twitter: "0xMantle",
     },
+    symbol: "COOK",
   },
   {
     id: 13,
