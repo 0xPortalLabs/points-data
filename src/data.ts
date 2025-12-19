@@ -698,7 +698,7 @@ const protocols: Protocol[] = [
   },
   {
     id: 45,
-    name: "Infinifi",
+    name: "infiniFi",
     listedAt: 1766076106,
     module: "adapters/infinifi.ts",
     portfolioUrl: "https://app.infinifi.xyz/points",
