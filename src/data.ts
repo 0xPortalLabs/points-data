@@ -665,6 +665,7 @@ const protocols: Protocol[] = [
       twitter: "harmonixfi",
       url: "https://app.harmonix.fi/",
     },
+    symbol: "HAR",
   },
   {
     id: 43,
@@ -724,6 +725,21 @@ const protocols: Protocol[] = [
       logo: "https://www.aroundtheworld.fun/favicon.ico",
       twitter: "aroundMiniapp",
       url: "https://www.aroundtheworld.fun/",
+    },
+  },
+  {
+    id: 47,
+    name: "Hypersurface",
+    listedAt: 1768257934,
+    module: "adapters/hypersurface.ts",
+    portfolioUrl: "https://app.hypersurface.io/rewards",
+    defillama: {
+      slug: "hypersurface",
+      description:
+        "DeFi structured products platform offering volatility yield through covered calls and cash-secured puts.",
+      logo: "https://icons.llama.fi/hypersurface.jpg",
+      twitter: "hypersurfaceX",
+      url: "https://hypersurface.io",
     },
   },
 ];
