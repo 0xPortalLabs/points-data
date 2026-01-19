@@ -776,6 +776,7 @@ const protocols: Protocol[] = [
     name: "Rainbow",
     listedAt: 1768841401,
     module: "adapters/rainbow.ts",
+    referralUrl: "https://www.rainbow.me/points?ref=M11FQR",
     portfolioUrl: "https://rainbow.me/",
     defillama: {
       slug: "rainbow-wallet",
