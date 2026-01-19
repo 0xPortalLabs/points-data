@@ -771,6 +771,21 @@ const protocols: Protocol[] = [
       url: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
     },
   },
+  {
+    id: 50,
+    name: "Rainbow",
+    listedAt: 1768841401,
+    module: "adapters/rainbow.ts",
+    portfolioUrl: "https://rainbow.me/",
+    defillama: {
+      slug: "",
+      description:
+        "Rainbowme, a sleek crypto wallet app on Base and EVM chains where users swap, bridge, collect NFTs, trade perps, and earn rewards in one intuitive interface.",
+      logo: "https://framerusercontent.com/images/Hml6PtJwt03gwFtTRYmbpo7EarY.png?scale-down-to=512&width=1024&height=1024",
+      twitter: "rainbowdotme",
+      url: "https://rainbow.me/",
+    },
+  },
 ];
 
 export default protocols;
