@@ -778,10 +778,10 @@ const protocols: Protocol[] = [
     module: "adapters/rainbow.ts",
     portfolioUrl: "https://rainbow.me/",
     defillama: {
-      slug: "",
+      slug: "rainbow-wallet",
       description:
-        "Rainbowme, a sleek crypto wallet app on Base and EVM chains where users swap, bridge, collect NFTs, trade perps, and earn rewards in one intuitive interface.",
-      logo: "https://framerusercontent.com/images/Hml6PtJwt03gwFtTRYmbpo7EarY.png?scale-down-to=512&width=1024&height=1024",
+        "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum",
+      logo: "https://icons.llama.fi/rainbow-wallet.jpg",
       twitter: "rainbowdotme",
       url: "https://rainbow.me/",
     },
