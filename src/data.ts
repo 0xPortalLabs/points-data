@@ -771,6 +771,21 @@ const protocols: Protocol[] = [
       url: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
     },
   },
+  {
+    id: 50,
+    name: "Rainbow",
+    listedAt: 1768841401,
+    module: "adapters/rainbow.ts",
+    portfolioUrl: "https://rainbow.me/",
+    defillama: {
+      slug: "rainbow-wallet",
+      description:
+        "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum",
+      logo: "https://icons.llama.fi/rainbow-wallet.jpg",
+      twitter: "rainbowdotme",
+      url: "https://rainbow.me/",
+    },
+  },
 ];
 
 export default protocols;
