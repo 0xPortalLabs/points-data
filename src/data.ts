@@ -751,7 +751,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "Earn points, flex your rank, and maybe, earn rewards",
-      logo: "https://proxy.wrpcd.net/?url=https%3A%2F%2Fleaderboard.frm.lol%2Fimages%2Fleaderboard.png&s=068f06dafc87f9c7671728268234c5c6ee829c33f5bf8990108248801877ff2c",
+      logo: "https://c-proxy.dorime.org/https://leaderboard.frm.lol/images/leaderboard.png",
       twitter: "",
       url: "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
     },
@@ -760,7 +760,7 @@ const protocols: Protocol[] = [
     id: 49,
     name: "Betrmint",
     listedAt: 1768772485,
-    module: "adapters/btrmint.ts",
+    module: "adapters/betrmint.ts",
     portfolioUrl: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
     defillama: {
       slug: "",
