@@ -792,6 +792,7 @@ const protocols: Protocol[] = [
     name: "Hypersurface",
     listedAt: 1768921932,
     module: "adapters/hypersurface.ts",
+    referralUrl: "https://app.hypersurface.io/rewards?referrer=checkpoint",
     portfolioUrl: "https://app.hypersurface.io/rewards",
     defillama: {
       slug: "hypersurface",
