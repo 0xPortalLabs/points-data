@@ -787,6 +787,22 @@ const protocols: Protocol[] = [
       url: "https://rainbow.me/",
     },
   },
+  {
+    id: 51,
+    name: "Hypersurface",
+    listedAt: 1768921932,
+    module: "adapters/hypersurface.ts",
+    referralUrl: "https://app.hypersurface.io/rewards?referrer=checkpoint",
+    portfolioUrl: "https://app.hypersurface.io/rewards",
+    defillama: {
+      slug: "hypersurface",
+      description:
+        "DeFi structured products platform offering volatility yield through covered calls and cash-secured puts.",
+      logo: "https://icons.llama.fi/hypersurface.jpg",
+      twitter: "hypersurfaceX",
+      url: "https://hypersurface.io",
+    },
+  },
 ];
 
 export default protocols;
