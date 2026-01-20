@@ -665,7 +665,6 @@ const protocols: Protocol[] = [
       twitter: "harmonixfi",
       url: "https://app.harmonix.fi/",
     },
-    symbol: "HAR",
   },
   {
     id: 43,
