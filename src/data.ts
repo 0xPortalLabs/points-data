@@ -729,17 +729,63 @@ const protocols: Protocol[] = [
   },
   {
     id: 47,
-    name: "Hypersurface",
-    listedAt: 1768257934,
-    module: "adapters/hypersurface.ts",
-    portfolioUrl: "https://app.hypersurface.io/rewards",
+    name: "Rips",
+    listedAt: 1768772485,
+    module: "adapters/rip.ts",
+    portfolioUrl: "https://rips.app/",
     defillama: {
-      slug: "hypersurface",
+      slug: "",
       description:
-        "DeFi structured products platform offering volatility yield through covered calls and cash-secured puts.",
-      logo: "https://icons.llama.fi/hypersurface.jpg",
-      twitter: "hypersurfaceX",
-      url: "https://hypersurface.io",
+        "Ripsapp, a pack-opening token discovery mini-app built on the Base blockchain where users rip curated packs to pull mystery ERC-20 coins. ",
+      logo: "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/a6861c5b-59b4-467a-cc92-a8453948ec00/anim=false,fit=contain,f=auto,w=auto",
+      twitter: "ripsapp",
+      url: "https://rips.app/",
+    },
+  },
+  {
+    id: 48,
+    name: "The Leaderboard",
+    listedAt: 1768772485,
+    module: "adapters/theleaderboard.ts",
+    portfolioUrl:
+      "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
+    defillama: {
+      slug: "",
+      description: "Earn points, flex your rank, and maybe, earn rewards",
+      logo: "https://c-proxy.dorime.org/https://leaderboard.frm.lol/images/leaderboard.png",
+      twitter: "",
+      url: "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
+    },
+  },
+  {
+    id: 49,
+    name: "Betrmint",
+    listedAt: 1768772485,
+    module: "adapters/betrmint.ts",
+    portfolioUrl: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
+    defillama: {
+      slug: "",
+      description:
+        "BETRMINT, a mint-to-spin mini-app on Base where users mint creator editions to earn free spins on the Neon Flywheel for $BETR and partner token rewards.",
+      logo: "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/0a162730-c586-46f6-5517-da0013a90a00/anim=false,fit=contain,f=auto,w=90",
+      twitter: "",
+      url: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
+    },
+  },
+  {
+    id: 50,
+    name: "Rainbow",
+    listedAt: 1768841401,
+    module: "adapters/rainbow.ts",
+    referralUrl: "https://www.rainbow.me/points?ref=M11FQR",
+    portfolioUrl: "https://rainbow.me/",
+    defillama: {
+      slug: "rainbow-wallet",
+      description:
+        "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum",
+      logo: "https://icons.llama.fi/rainbow-wallet.jpg",
+      twitter: "rainbowdotme",
+      url: "https://rainbow.me/",
     },
   },
 ];
