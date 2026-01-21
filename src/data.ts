@@ -803,6 +803,21 @@ const protocols: Protocol[] = [
       url: "https://hypersurface.io",
     },
   },
+  {
+    id: 52,
+    name: "Inflynce",
+    listedAt: 1768947570,
+    module: "adapters/inflynce.ts",
+    portfolioUrl: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
+    defillama: {
+      slug: "",
+      description:
+        "Inflynce Protocol pays users and influencers on Base based on their Mindshare score from Farcaster activity while running transparent onchain rewards and campaigns.",
+      logo: "https://pbs.twimg.com/profile_images/2012957339779780608/GKwDJnfU_400x400.jpg",
+      twitter: "inflynce",
+      url: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
+    },
+  },
 ];
 
 export default protocols;
