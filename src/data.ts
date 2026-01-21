@@ -813,7 +813,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Inflynce Protocol pays users and influencers on Base based on their Mindshare score from Farcaster activity while running transparent onchain rewards and campaigns.",
-      logo: "https://proxy.wrpcd.net/?url=https%3A%2F%2Fminiapp.inflynce.com%2Flogo_200x200.png&s=c407b47cd34815ef057862db5f146ec6b936237de898ba1a7e247bb65923b587",
+      logo: "https://miniapp.inflynce.com/logo_200x200.png",
       twitter: "inflynce",
       url: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
     },
