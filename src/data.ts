@@ -812,7 +812,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description:
-        "Inflynce Protocol pays users and influencers on Base based on their Mindshare score from Farcaster activity while running transparent onchain rewards and campaigns. ",
+        "Inflynce Protocol pays users and influencers on Base based on their Mindshare score from Farcaster activity while running transparent onchain rewards and campaigns.",
       logo: "https://pbs.twimg.com/profile_images/2012957339779780608/GKwDJnfU_400x400.jpg",
       twitter: "inflynce",
       url: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
