@@ -824,6 +824,7 @@ const protocols: Protocol[] = [
     listedAt: 1769463698,
     module: "adapters/theo.ts",
     portfolioUrl: "https://app.theo.xyz/points",
+    referralUrl: "https://app.theo.xyz/invite?invite=checkpoint",
     defillama: {
       slug: "theo-network-thbill",
       description:
