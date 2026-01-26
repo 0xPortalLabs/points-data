@@ -818,6 +818,21 @@ const protocols: Protocol[] = [
       url: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
     },
   },
+  {
+    id: 53,
+    name: "Theo",
+    listedAt: 1769463698,
+    module: "adapters/theo.ts",
+    portfolioUrl: "https://app.theo.xyz/points",
+    defillama: {
+      slug: "theo-network-thbill",
+      description:
+        "thBILL is a yield-bearing basket of tokenized U.S. Treasury bills from regulated issuers, designed as a stable core asset within the Theo ecosystem.",
+      logo: "https://icons.llama.fi/theo-network-thbill.jpg",
+      twitter: "Theo_Network",
+      url: "https://app.theo.xyz/",
+    },
+  },
 ];
 
 export default protocols;
