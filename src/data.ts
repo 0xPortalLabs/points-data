@@ -866,7 +866,7 @@ const protocols: Protocol[] = [
         "The only DEX where speed never compromises security. Uniquely built as a based-rollup powered by zk-proofs, Reya DEX delivers 1 millisecond speed, 0 trading fess and 100% Ethereum uptime and security",
       logo: "https://icons.llama.fi/reya-perps.jpg",
       twitter: "reya_xyz",
-      url: "https://app.reya.xyz/trade?referredBy=z9hwcwwd",
+      url: "https://app.reya.xyz/trade", // removed non-Checkpoint referral param
     },
   },
 ];
