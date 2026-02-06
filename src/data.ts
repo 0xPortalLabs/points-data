@@ -201,8 +201,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Token launchpad powering liquidity for next-gen protocols on Berachain.",
-      logo:
-        "https://miro.medium.com/v2/resize:fill:128:128/1*bVUWp4miIuMBX4MlqOChZA.png",
+      logo: "https://miro.medium.com/v2/resize:fill:128:128/1*bVUWp4miIuMBX4MlqOChZA.png",
       url: "https://ramen.finance/",
       twitter: "ramen_finance",
     },
@@ -737,8 +736,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Ripsapp, a pack-opening token discovery mini-app built on the Base blockchain where users rip curated packs to pull mystery ERC-20 coins. ",
-      logo:
-        "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/a6861c5b-59b4-467a-cc92-a8453948ec00/anim=false,fit=contain,f=auto,w=auto",
+      logo: "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/a6861c5b-59b4-467a-cc92-a8453948ec00/anim=false,fit=contain,f=auto,w=auto",
       twitter: "ripsapp",
       url: "https://rips.app/",
     },
@@ -753,11 +751,9 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "Earn points, flex your rank, and maybe, earn rewards",
-      logo:
-        "https://c-proxy.dorime.org/https://leaderboard.frm.lol/images/leaderboard.png",
+      logo: "https://c-proxy.dorime.org/https://leaderboard.frm.lol/images/leaderboard.png",
       twitter: "",
-      url:
-        "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
+      url: "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
     },
   },
   {
@@ -770,8 +766,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "BETRMINT, a mint-to-spin mini-app on Base where users mint creator editions to earn free spins on the Neon Flywheel for $BETR and partner token rewards.",
-      logo:
-        "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/0a162730-c586-46f6-5517-da0013a90a00/anim=false,fit=contain,f=auto,w=90",
+      logo: "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/0a162730-c586-46f6-5517-da0013a90a00/anim=false,fit=contain,f=auto,w=90",
       twitter: "",
       url: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
     },
@@ -844,7 +839,7 @@ const protocols: Protocol[] = [
     name: "USD AI",
     listedAt: 1770329565,
     module: "adapters/usdai.ts",
-    portfolioUrl: "https://usd.ai/",
+    portfolioUrl: "https://app.usd.ai/?tab=portfolio",
     defillama: {
       slug: "usd-ai",
       description:
@@ -860,7 +855,6 @@ const protocols: Protocol[] = [
     listedAt: 1770329565,
     module: "adapters/reya.ts",
     portfolioUrl: "https://app.reya.xyz/",
-    referralUrl: "https://app.reya.xyz/trade?referredBy=z9hwcwwd",
     defillama: {
       slug: "reya-perps",
       description:
