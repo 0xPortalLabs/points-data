@@ -834,6 +834,36 @@ const protocols: Protocol[] = [
       url: "https://app.theo.xyz/",
     },
   },
+  {
+    id: 54,
+    name: "USD AI",
+    listedAt: 1770329565,
+    module: "adapters/usdai.ts",
+    portfolioUrl: "https://app.usd.ai/?tab=portfolio",
+    defillama: {
+      slug: "usd-ai",
+      description:
+        "USD.AI is a yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
+      logo: "https://icons.llama.fi/usd-ai.jpg",
+      twitter: "USDai_Official",
+      url: "https://usd.ai/",
+    },
+  },
+  {
+    id: 55,
+    name: "Reya",
+    listedAt: 1770329565,
+    module: "adapters/reya.ts",
+    portfolioUrl: "https://app.reya.xyz/",
+    defillama: {
+      slug: "reya-perps",
+      description:
+        "The only DEX where speed never compromises security. Uniquely built as a based-rollup powered by zk-proofs, Reya DEX delivers 1 millisecond speed, 0 trading fees and 100% Ethereum uptime and security",
+      logo: "https://icons.llama.fi/reya-perps.jpg",
+      twitter: "reya_xyz",
+      url: "https://reya.xyz",
+    },
+  },
 ];
 
 export default protocols;
