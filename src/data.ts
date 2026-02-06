@@ -860,13 +860,14 @@ const protocols: Protocol[] = [
     listedAt: 1770329565,
     module: "adapters/reya.ts",
     portfolioUrl: "https://app.reya.xyz/",
+    referralUrl: "https://app.reya.xyz/trade?referredBy=z9hwcwwd",
     defillama: {
       slug: "reya-perps",
       description:
-        "The only DEX where speed never compromises security. Uniquely built as a based-rollup powered by zk-proofs, Reya DEX delivers 1 millisecond speed, 0 trading fess and 100% Ethereum uptime and security",
+        "The only DEX where speed never compromises security. Uniquely built as a based-rollup powered by zk-proofs, Reya DEX delivers 1 millisecond speed, 0 trading fees and 100% Ethereum uptime and security",
       logo: "https://icons.llama.fi/reya-perps.jpg",
       twitter: "reya_xyz",
-      url: "https://app.reya.xyz/trade", // removed non-Checkpoint referral param
+      url: "https://reya.xyz",
     },
   },
 ];
