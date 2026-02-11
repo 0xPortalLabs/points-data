@@ -46,6 +46,7 @@ const protocols: Protocol[] = [
       url: "https://app.bedrock.technology/",
       twitter: "Bedrock_DeFi",
     },
+    symbol: "BR",
   },
   {
     id: 4,
@@ -130,7 +131,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.karak.network/portfolio",
     module: "adapters/karak.ts",
     defillama: {
-      slug: "karak",
+      slug: "opengdp-shared-security",
       description:
         "The universal restaking layer powered by the entire cryptoeconomy.",
       logo: "https://icons.llama.fi/karak.png",
@@ -164,13 +165,14 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
     module: "adapters/lombard.ts",
     defillama: {
-      slug: "lombard",
+      slug: "lombard-lbtc",
       description:
         "Lombard is transforming Bitcoin's utility from a store of value into a productive financial tool through a security-first liquid Bitcoin primitive—LBTC. LBTC is a liquid, yield-bearing, natively cross-chain, and 1:1 backed by bitcoin.",
       logo: "https://icons.llama.fi/lombard.jpg",
       url: "https://www.lombard.finance",
       twitter: "Lombard_Finance",
     },
+    symbol: "BARD",
   },
   {
     id: 12,
@@ -665,6 +667,7 @@ const protocols: Protocol[] = [
       twitter: "harmonixfi",
       url: "https://app.harmonix.fi/",
     },
+    symbol: "HAR",
   },
   {
     id: 43,
@@ -778,6 +781,7 @@ const protocols: Protocol[] = [
     module: "adapters/rainbow.ts",
     referralUrl: "https://www.rainbow.me/points?ref=M11FQR",
     portfolioUrl: "https://rainbow.me/",
+    claimUrl: "https://www.rainbow.me/points?ref=M11FQR",
     defillama: {
       slug: "rainbow-wallet",
       description:
