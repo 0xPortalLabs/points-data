@@ -858,6 +858,7 @@ const protocols: Protocol[] = [
     name: "Reya",
     listedAt: 1770329565,
     module: "adapters/reya.ts",
+    referralUrl: "https://app.reya.xyz/trade?referredBy=9uu02p9e",
     portfolioUrl: "https://app.reya.xyz/",
     defillama: {
       slug: "reya-perps",
