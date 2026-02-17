@@ -869,6 +869,22 @@ const protocols: Protocol[] = [
       url: "https://reya.xyz",
     },
   },
+  {
+    id: 56,
+    name: "Blockscout",
+    listedAt: 1771368291,
+    module: "adapters/blockscout.ts",
+    portfolioUrl: "https://merits.blockscout.com/",
+    referralUrl: "https://eth.blockscout.com/?ref=M0S0M6",
+    defillama: {
+      slug: "blockscout",
+      description:
+        "Blockscout is an open-source blockchain explorer that supports hundreds of EVM networks with transparent transaction, address, and smart contract analytics.",
+      logo: "https://github.com/blockscout/blockscout/blob/master/blockscout.png?raw=1",
+      twitter: "blockscout",
+      url: "https://blockscout.com/",
+    },
+  },
 ];
 
 export default protocols;
