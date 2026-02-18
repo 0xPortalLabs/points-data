@@ -880,7 +880,7 @@ const protocols: Protocol[] = [
       slug: "blockscout",
       description:
         "Blockscout is an open-source blockchain explorer that supports hundreds of EVM networks with transparent transaction, address, and smart contract analytics.",
-      logo: "https://github.com/blockscout/blockscout/blob/master/blockscout.png?raw=1",
+      logo: "https://avatars.githubusercontent.com/u/45625840",
       twitter: "blockscout",
       url: "https://blockscout.com/",
     },
