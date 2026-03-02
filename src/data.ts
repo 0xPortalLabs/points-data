@@ -877,13 +877,31 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://merits.blockscout.com/",
     referralUrl: "https://eth.blockscout.com/?ref=M0S0M6",
     defillama: {
-      slug: "blockscout",
+      slug: "",
       description:
         "Blockscout is an open-source blockchain explorer that supports hundreds of EVM networks with transparent transaction, address, and smart contract analytics.",
       logo: "https://avatars.githubusercontent.com/u/45625840",
       twitter: "blockscout",
       url: "https://blockscout.com/",
     },
+  },
+  {
+    id: 57,
+    name: "Plume",
+    listedAt: 1772488729,
+    module: "adapters/plume.ts",
+    portfolioUrl: "https://portal.plume.org/",
+    referralUrl: "https://portal.plume.org/?referrer=BeigeCalmPort089",
+    defillama: {
+      isChain: true,
+      slug: "Plume Mainnet",
+      description:
+        "Onchain Asset Management. Transforming assets into globally accessible financial tools with true crypto-native utility",
+      logo: "https://coin-images.coingecko.com/asset_platforms/images/22226/thumb/Logomark-BG-Red.png?1746672975",
+      twitter: "plumenetwork",
+      url: "https://plume.org",
+    },
+    symbol: "PLUME",
   },
 ];
 
