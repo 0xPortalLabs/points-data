@@ -617,7 +617,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Nansen is a leading onchain analytics platform custom-built for blockchain ecosystems, serving as a building block for wallet labeling, transaction tracking, smart alerts, and more.",
-      logo: "https://cdn.app.nansen.ai/assets/static/images/logo.svg",
+      logo: "https://checkpoint.exchange/logos/nansen-logo.svg",
       twitter: "nansen_ai",
       url: "https://app.nansen.ai/",
     },
@@ -632,7 +632,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "PRJX is a zero-fee DEX custom-built for the HyperEVM ecosystem, serving as a building block for swaps, bridging, liquidity provision, and more.",
-      logo: "https://www.prjx.com/assets/phase2/logos/prjx-dark-logo-48.svg",
+      logo: "https://checkpoint.exchange/logos/prjx-logo.svg",
       twitter: "prjx_hl",
       url: "https://www.prjx.com",
     },
@@ -646,7 +646,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "The leading web3 growth platform.",
-      logo: "",
+      logo: "https://checkpoint.exchange/logos/galxe-logo.svg",
       twitter: "galxe",
       url: "https://www.galxe.com/",
     },
@@ -880,7 +880,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Blockscout is an open-source blockchain explorer that supports hundreds of EVM networks with transparent transaction, address, and smart contract analytics.",
-      logo: "https://avatars.githubusercontent.com/u/45625840",
+      logo: "https://checkpoint.exchange/logos/blockscout-logo.svg",
       twitter: "blockscout",
       url: "https://blockscout.com/",
     },
@@ -897,7 +897,7 @@ const protocols: Protocol[] = [
       slug: "Plume Mainnet",
       description:
         "Onchain Asset Management. Transforming assets into globally accessible financial tools with true crypto-native utility",
-      logo: "https://coin-images.coingecko.com/asset_platforms/images/22226/thumb/Logomark-BG-Red.png?1746672975",
+      logo: "https://checkpoint.exchange/logos/plume-logo.svg",
       twitter: "plumenetwork",
       url: "https://plume.org",
     },
