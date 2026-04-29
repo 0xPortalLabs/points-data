@@ -903,6 +903,54 @@ const protocols: Protocol[] = [
     },
     symbol: "PLUME",
   },
+  {
+    id: 58,
+    name: "Liquid",
+    listedAt: 1777451018,
+    module: "adapters/liquid.ts",
+    portfolioUrl: "https://app.tryliquid.xyz/points",
+    referralUrl: "https://app.tryliquid.xyz/?ref=CHECKPOINT",
+    defillama: {
+      slug: "liquid-perps",
+      description:
+        "Liquid provides a way to trade Bitcoin, ETH, and trending tokens with up to 40x leverage",
+      logo: "https://icons.llama.fi/liquid-perps.jpg",
+      twitter: "liquidtrading",
+      url: "https://www.liquid.trade/",
+    },
+  },
+  {
+    id: 59,
+    name: "Ostium",
+    listedAt: 1777453140,
+    module: "adapters/ostium.ts",
+    portfolioUrl: "https://app.ostium.com/points",
+    referralUrl: "https://ostium.app/trade?ref=GUBPP",
+    defillama: {
+      slug: "ostium",
+      description: "Trade FX, metals, energy, & RWAs from your wallet",
+      logo: "https://icons.llama.fi/ostium.png",
+      twitter: "OstiumLabs",
+      url: "https://www.ostium.io/",
+    },
+  },
+  {
+    id: 60,
+    name: "MegaETH",
+    listedAt: 1777459800,
+    module: "adapters/megaeth.ts",
+    portfolioUrl: "https://terminal.megaeth.com/",
+    referralUrl: "https://terminal.megaeth.com/",
+    defillama: {
+      isChain: true,
+      slug: "megaeth",
+      description:
+        "MegaETH is an EVM-compatible blockchain built for real-time onchain applications.",
+      logo: "https://icons.llamao.fi/icons/chains/rsz_megaeth.jpg",
+      twitter: "megaeth_labs",
+      url: "https://megaeth.com/",
+    },
+  },
 ];
 
 export default protocols;
