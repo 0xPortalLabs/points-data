@@ -940,7 +940,6 @@ const protocols: Protocol[] = [
     listedAt: 1777459800,
     module: "adapters/megaeth.ts",
     portfolioUrl: "https://terminal.megaeth.com/",
-    referralUrl: "https://terminal.megaeth.com/",
     defillama: {
       isChain: true,
       slug: "megaeth",
