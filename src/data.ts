@@ -950,6 +950,21 @@ const protocols: Protocol[] = [
       url: "https://megaeth.com/",
     },
   },
+  {
+    id: 61,
+    name: "IntegraLayer",
+    listedAt: 1777529700,
+    module: "adapters/integralayer.ts",
+    portfolioUrl: "https://dashboard.integralayer.com/stats",
+    defillama: {
+      slug: "",
+      description:
+        "IntegraLayer is building AI and blockchain infrastructure for real estate, bringing asset passports, agent identity, and global real estate liquidity onchain.",
+      logo: "https://checkpoint.exchange/logos/integralayer-logo.svg",
+      twitter: "integra_layer",
+      url: "https://integralayer.com/",
+    },
+  },
 ];
 
 export default protocols;
