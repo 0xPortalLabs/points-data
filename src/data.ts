@@ -1080,6 +1080,7 @@ const protocols: Protocol[] = [
     name: "Pear Protocol",
     listedAt: 1778203200,
     module: "adapters/pear.ts",
+    referralUrl: "https://pear.garden/trade?referral=checkpoint",
     portfolioUrl: "https://app.pear.garden/hypear-points-3",
     defillama: {
       slug: "pear-protocol",
