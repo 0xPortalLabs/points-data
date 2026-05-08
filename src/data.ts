@@ -965,6 +965,132 @@ const protocols: Protocol[] = [
       url: "https://integralayer.com/",
     },
   },
+  {
+    id: 62,
+    name: "Strata",
+    listedAt: 1778040060,
+    module: "adapters/strata.ts",
+    referralUrl: "https://app.strata.markets/?ref=00MRIwxN",
+    portfolioUrl: "https://app.strata.markets/points",
+    defillama: {
+      slug: "strata",
+      description:
+        "Strata is a risk-tranching protocol that creates structured yield products for assets like USDe, NUSD, Midas assets, and USDat while rewarding early users and liquidity providers with Strata points.",
+      logo: "https://icons.llama.fi/strata.png",
+      twitter: "strata_markets",
+      url: "https://strata.markets",
+    },
+  },
+  {
+    id: 63,
+    name: "APYX",
+    listedAt: 1778041620,
+    module: "adapters/apyx.ts",
+    referralUrl: "https://app.apyx.fi/join/5x81uif",
+    portfolioUrl: "https://app.apyx.fi/rewards",
+    defillama: {
+      slug: "apyx-protocol",
+      description:
+        "Apyx Protocol issues apxUSD, a synthetic dollar on Ethereum, and apyUSD, an ERC-4626 savings vault for apxUSD. Its Pips program rewards users for holding, locking, committing, and using eligible DeFi positions.",
+      logo: "https://icons.llama.fi/apyx-protocol.jpg",
+      twitter: "apyx_fi",
+      url: "https://apyx.fi",
+    },
+  },
+  {
+    id: 64,
+    name: "Avant",
+    listedAt: 1778049780,
+    module: "adapters/avant.ts",
+    portfolioUrl: "https://app.avantprotocol.com/rewards",
+    referralUrl: "https://app.avantprotocol.com/rewards?ref=checkpoint",
+    defillama: {
+      slug: "avant-protocol",
+      description:
+        "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart.",
+      logo: "https://icons.llama.fi/avant-protocol.jpg",
+      twitter: "avantprotocol",
+      url: "https://app.avantprotocol.com/rewards?ref=defillama",
+    },
+  },
+  {
+    id: 65,
+    name: "Mainstreet",
+    listedAt: 1778052420,
+    module: "adapters/mainstreet.ts",
+    portfolioUrl: "https://mainstreet.finance/rewards/campaigns",
+    defillama: {
+      slug: "mainstreet",
+      description: "Rebasing synthetic dollar",
+      logo: "https://icons.llama.fi/mainstreet.jpg",
+      twitter: "Main_St_Finance",
+      url: "https://mainstreet.finance/",
+    },
+  },
+  {
+    id: 66,
+    name: "Sierra Protocol",
+    listedAt: 1778055120,
+    module: "adapters/sierra.ts",
+    portfolioUrl: "https://app.sierra.money/peaks",
+    defillama: {
+      slug: "sierra-protocol",
+      description:
+        "The Sierra Protocol reimagines money by issuing SIERRA, a Liquid Yield Token (LYT) built to deliver the best user experience across CeFi and DeFi",
+      logo: "https://icons.llama.fi/sierra-protocol.jpg",
+      twitter: "SierraIsMoney",
+      url: "https://sierra.money/",
+    },
+  },
+  {
+    id: 67,
+    name: "Altura",
+    listedAt: 1778063238,
+    module: "adapters/altura.ts",
+    referralUrl:
+      "https://app.altura.trade/?referral=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
+    portfolioUrl: "https://app.altura.trade/airdrop",
+    defillama: {
+      slug: "altura",
+      description:
+        "Altura is an on-chain capital management protocol offering a multi-strategy stablecoin vault on HyperEVM.",
+      logo: "https://icons.llama.fi/altura.jpg",
+      twitter: "alturax",
+      url: "https://app.altura.trade",
+    },
+  },
+  {
+    id: 68,
+    name: "Valantis",
+    listedAt: 1778067000,
+    module: "adapters/valantis.ts",
+    referralUrl: "https://app.valantis.xyz/vaults?af=dyt-1rn6-3b6",
+    portfolioUrl: "https://app.valantis.xyz/points",
+    defillama: {
+      slug: "valantis",
+      description:
+        "The Modular DEX. Live on HyperEVM with STEX, a next-gen AMM design built specific for staked assets.",
+      logo: "https://icons.llama.fi/valantis.jpg",
+      twitter: "ValantisLabs",
+      url: "https://www.valantis.xyz/",
+    },
+  },
+  {
+    id: 69,
+    name: "Pear Protocol",
+    listedAt: 1778203200,
+    module: "adapters/pear.ts",
+    referralUrl: "https://pear.garden/trade?referral=checkpoint",
+    portfolioUrl: "https://app.pear.garden/hypear-points-3",
+    defillama: {
+      slug: "pear-protocol",
+      description:
+        "Pear Protocol is a decentralized trading platform that streamlines pair-trading of cryptocurrencies by enabling simultaneous leveraged long and short positions in a single on-chain transaction.",
+      logo: "https://icons.llama.fi/pear-protocol.jpg",
+      twitter: "pear_protocol",
+      url: "https://www.pear.garden/",
+    },
+  },
 ];
 
 export default protocols;
