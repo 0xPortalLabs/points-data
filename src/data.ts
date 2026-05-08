@@ -1077,6 +1077,21 @@ const protocols: Protocol[] = [
   },
   {
     id: 69,
+    name: "Checkpoint Exchange",
+    listedAt: 1778203200,
+    module: "adapters/checkpoint.ts",
+    portfolioUrl: "https://checkpoint.exchange/leaderboard",
+    defillama: {
+      slug: "",
+      description:
+        "Track, analyze, and trade points across ecosystems. Build apps, dashboards and bots with the Checkpoint API.",
+      logo: null,
+      twitter: "checkpointex",
+      url: "https://checkpoint.exchange",
+    },
+  },
+  {
+    id: 70,
     name: "Pear Protocol",
     listedAt: 1778203200,
     module: "adapters/pear.ts",
