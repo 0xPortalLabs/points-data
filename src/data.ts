@@ -1075,6 +1075,21 @@ const protocols: Protocol[] = [
       url: "https://www.valantis.xyz/",
     },
   },
+  {
+    id: 69,
+    name: "Pear Protocol",
+    listedAt: 1778203200,
+    module: "adapters/pear.ts",
+    portfolioUrl: "https://app.pear.garden/hypear-points-3",
+    defillama: {
+      slug: "pear-protocol",
+      description:
+        "Pear Protocol is a decentralized trading platform that streamlines pair-trading of cryptocurrencies by enabling simultaneous leveraged long and short positions in a single on-chain transaction.",
+      logo: "https://icons.llama.fi/pear-protocol.jpg",
+      twitter: "pear_protocol",
+      url: "https://www.pear.garden/",
+    },
+  },
 ];
 
 export default protocols;
