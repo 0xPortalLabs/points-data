@@ -970,6 +970,7 @@ const protocols: Protocol[] = [
     name: "Strata",
     listedAt: 1778040060,
     module: "adapters/strata.ts",
+    referralUrl: "https://app.strata.markets/?ref=00MRIwxN",
     portfolioUrl: "https://app.strata.markets/points",
     defillama: {
       slug: "strata",
@@ -985,6 +986,7 @@ const protocols: Protocol[] = [
     name: "APYX",
     listedAt: 1778041620,
     module: "adapters/apyx.ts",
+    referralUrl: "https://app.apyx.fi/join/5x81uif",
     portfolioUrl: "https://app.apyx.fi/rewards",
     defillama: {
       slug: "apyx-protocol",
@@ -1045,6 +1047,8 @@ const protocols: Protocol[] = [
     name: "Altura",
     listedAt: 1778063238,
     module: "adapters/altura.ts",
+    referralUrl:
+      "https://app.altura.trade/?referral=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://app.altura.trade/airdrop",
     defillama: {
       slug: "altura",
@@ -1060,6 +1064,7 @@ const protocols: Protocol[] = [
     name: "Valantis",
     listedAt: 1778067000,
     module: "adapters/valantis.ts",
+    referralUrl: "https://app.valantis.xyz/vaults?af=dyt-1rn6-3b6",
     portfolioUrl: "https://app.valantis.xyz/points",
     defillama: {
       slug: "valantis",
