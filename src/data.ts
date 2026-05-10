@@ -63,6 +63,7 @@ const protocols: Protocol[] = [
       url: "https://usecorn.com/",
       twitter: "use_corn",
     },
+    symbol: "CORN",
   },
   {
     id: 5,
@@ -163,6 +164,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     referralUrl: "https://www.lombard.finance/app/?referrer=pl7zti",
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
+    claimUrl: "https://claim.lombard.finance",
     module: "adapters/lombard.ts",
     defillama: {
       slug: "lombard-lbtc",
@@ -375,6 +377,7 @@ const protocols: Protocol[] = [
     module: "adapters/treehouse.ts",
     referralUrl: "https://app.treehouse.finance/referral/E79CA",
     portfolioUrl: "https://app.treehouse.finance/portfolio",
+    claimUrl: "https://gaiafoundation.xyz/",
     defillama: {
       slug: "treehouse-protocol",
       description:
@@ -455,7 +458,7 @@ const protocols: Protocol[] = [
     module: "adapters/jumperexchange.ts",
     portfolioUrl: "https://jumper.exchange/profile",
     defillama: {
-      slug: "jumper-exchange",
+      slug: "jumper-(li.fi-powered)",
       description: "Crypto's Everything Exchange",
       logo: "https://icons.llama.fi/jumper-exchange.jpg",
       twitter: "JumperExchange",
@@ -477,6 +480,7 @@ const protocols: Protocol[] = [
       twitter: "Infrared_Finance",
       url: "https://infrared.finance",
     },
+    symbol: "IR",
   },
   {
     id: 31,
@@ -942,13 +946,14 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://terminal.megaeth.com/",
     defillama: {
       isChain: true,
-      slug: "megaeth",
+      slug: "MegaETH",
       description:
         "MegaETH is an EVM-compatible blockchain built for real-time onchain applications.",
       logo: "https://icons.llamao.fi/icons/chains/rsz_megaeth.jpg",
       twitter: "megaeth_labs",
       url: "https://megaeth.com/",
     },
+    symbol: "MEGA",
   },
   {
     id: 61,
@@ -973,7 +978,7 @@ const protocols: Protocol[] = [
     referralUrl: "https://app.strata.markets/?ref=00MRIwxN",
     portfolioUrl: "https://app.strata.markets/points",
     defillama: {
-      slug: "strata",
+      slug: "strata-markets",
       description:
         "Strata is a risk-tranching protocol that creates structured yield products for assets like USDe, NUSD, Midas assets, and USDat while rewarding early users and liquidity providers with Strata points.",
       logo: "https://icons.llama.fi/strata.png",
@@ -1005,7 +1010,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.avantprotocol.com/rewards",
     referralUrl: "https://app.avantprotocol.com/rewards?ref=checkpoint",
     defillama: {
-      slug: "avant-protocol",
+      slug: "avant-avusd",
       description:
         "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart.",
       logo: "https://icons.llama.fi/avant-protocol.jpg",
@@ -1041,6 +1046,7 @@ const protocols: Protocol[] = [
       twitter: "SierraIsMoney",
       url: "https://sierra.money/",
     },
+    symbol: "SIERRA",
   },
   {
     id: 67,
@@ -1067,7 +1073,7 @@ const protocols: Protocol[] = [
     referralUrl: "https://app.valantis.xyz/vaults?af=dyt-1rn6-3b6",
     portfolioUrl: "https://app.valantis.xyz/points",
     defillama: {
-      slug: "valantis",
+      slug: "valantis-stex",
       description:
         "The Modular DEX. Live on HyperEVM with STEX, a next-gen AMM design built specific for staked assets.",
       logo: "https://icons.llama.fi/valantis.jpg",
@@ -1098,13 +1104,14 @@ const protocols: Protocol[] = [
     referralUrl: "https://pear.garden/trade?referral=checkpoint",
     portfolioUrl: "https://app.pear.garden/hypear-points-3",
     defillama: {
-      slug: "pear-protocol",
+      slug: "pear-perps",
       description:
         "Pear Protocol is a decentralized trading platform that streamlines pair-trading of cryptocurrencies by enabling simultaneous leveraged long and short positions in a single on-chain transaction.",
       logo: "https://icons.llama.fi/pear-protocol.jpg",
       twitter: "pear_protocol",
       url: "https://www.pear.garden/",
     },
+    symbol: "PEAR",
   },
 ];
 
