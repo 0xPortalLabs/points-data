@@ -1129,6 +1129,22 @@ const protocols: Protocol[] = [
       url: "https://app.saturn.credit/",
     },
   },
+  {
+    id: 72,
+    name: "Nado",
+    listedAt: 1778472000,
+    module: "adapters/nado.ts",
+    portfolioUrl: "https://app.nado.xyz/points",
+    defillama: {
+      slug: "nado",
+      description:
+        "Nado is a vertically-integrated decentralized exchange for spot and perpetual futures, featuring an off-chain sequencer and on-chain settlement on Ink.",
+      logo: "https://icons.llama.fi/nado.jpg",
+      twitter: "nadohq",
+      url: "https://app.nado.xyz",
+    },
+    symbol: "NADO",
+  },
 ];
 
 export default protocols;
