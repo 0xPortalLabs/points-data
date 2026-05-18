@@ -1113,6 +1113,22 @@ const protocols: Protocol[] = [
     },
     symbol: "PEAR",
   },
+  {
+    id: 71,
+    name: "Saturn",
+    listedAt: 1779045210,
+    module: "adapters/saturn.ts",
+    referralUrl: "",
+    portfolioUrl: "https://app.saturn.credit/portfolio",
+    defillama: {
+      slug: "saturn",
+      description:
+        "Saturn is a dual-token Bitcoin-backed credit protocol where USDat is a stablecoin backed by tokenized treasuries and sUSDat is a yield-bearing version backed by digital credit exposure.",
+      logo: "https://icons.llama.fi/saturn.jpg",
+      twitter: "saturn_credit",
+      url: "https://app.saturn.credit/",
+    },
+  },
 ];
 
 export default protocols;
