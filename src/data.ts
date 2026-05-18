@@ -1118,7 +1118,6 @@ const protocols: Protocol[] = [
     name: "Saturn",
     listedAt: 1779045210,
     module: "adapters/saturn.ts",
-    referralUrl: "",
     portfolioUrl: "https://app.saturn.credit/portfolio",
     defillama: {
       slug: "saturn",
