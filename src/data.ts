@@ -271,7 +271,7 @@ const protocols: Protocol[] = [
       slug: "superform",
       description:
         "Superform is the onchain wealth app. Superform earns you the best returns on your crypto to grow your onchain wealth. Use SuperVaults to automatically optimize your earnings, or build your customized portfolio by directly depositing into over 800 earning opportunities",
-      logo: "https://icons.llama.fi/superform.png",
+      logo: "https://icons.llamao.fi/icons/protocols/superform",
       url: "https://www.superform.xyz/",
       twitter: "superformxyz",
     },
@@ -414,7 +414,7 @@ const protocols: Protocol[] = [
       slug: "ethereal-season-zero",
       description:
         "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
-      logo: "https://icons.llama.fi/ethereal.png",
+      logo: "https://icons.llamao.fi/icons/protocols/ethereal",
       twitter: "etherealdex",
       url: "https://www.ethereal.trade/",
     },
@@ -460,7 +460,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "jumper-(li.fi-powered)",
       description: "Crypto's Everything Exchange",
-      logo: "https://icons.llama.fi/jumper-exchange.jpg",
+      logo: "https://icons.llama.fi/jumper-(li.fi-powered).jpg",
       twitter: "JumperExchange",
       url: "https://jumper.exchange",
     },
@@ -728,7 +728,7 @@ const protocols: Protocol[] = [
       slug: "",
       description:
         "Around The World, a play-to-earn climbing game mini-app built on the Base blockchain where players compete on leaderboards to earn rewards.",
-      logo: "https://www.aroundtheworld.fun/favicon.ico",
+      logo: "https://basearoundtheworld.vercel.app/favicon.ico",
       twitter: "aroundMiniapp",
       url: "https://www.aroundtheworld.fun/",
     },
@@ -817,14 +817,6 @@ const protocols: Protocol[] = [
     listedAt: 1768947570,
     module: "adapters/inflynce.ts",
     portfolioUrl: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
-    defillama: {
-      slug: "",
-      description:
-        "Inflynce Protocol pays users and influencers on Base based on their Mindshare score from Farcaster activity while running transparent onchain rewards and campaigns.",
-      logo: "https://miniapp.inflynce.com/logo_200x200.png",
-      twitter: "inflynce",
-      url: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
-    },
   },
   {
     id: 53,
