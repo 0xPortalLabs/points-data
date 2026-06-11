@@ -1172,13 +1172,13 @@ const protocols: Protocol[] = [
     name: "Incentiv",
     listedAt: 1781166533,
     module: "adapters/incentiv.ts",
-    portfolioUrl: "https://portal.incentiv.io/,
+    portfolioUrl: "https://portal.incentiv.io/",
     defillama: {
       slug: "",
       description: "",
       logo: null,
-      twitter: "https://incentiv.io/",
-      url: "https://x.com/Incentiv_net",
+      twitter: "https://x.com/Incentiv_net",
+      url: "https://incentiv.io/",
     },
   },
   {
@@ -1197,7 +1197,7 @@ const protocols: Protocol[] = [
   },
   {
     id: 77,
-    name: "Onebanking",
+    name: "oneBanking",
     listedAt: 1781166533,
     module: "adapters/onebanking.ts",
     portfolioUrl: "https://quests.onebanking.app/loyalty",
