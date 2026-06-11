@@ -1177,7 +1177,7 @@ const protocols: Protocol[] = [
       slug: "",
       description: "",
       logo: null,
-      twitter: "https://x.com/Incentiv_net",
+      twitter: "incentiv_net",
       url: "https://incentiv.io/",
     },
   },
