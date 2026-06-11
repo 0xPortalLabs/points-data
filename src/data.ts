@@ -1176,7 +1176,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "",
-      logo: null,
+      logo: "https://checkpoint.exchange/logos/incentiv-logo.svg",
       twitter: "incentiv_net",
       url: "https://incentiv.io/",
     },
@@ -1190,7 +1190,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "",
-      logo: null,
+      logo: "https://checkpoint.exchange/logos/quip-logo.svg",
       twitter: "quipnetwork",
       url: "https://quip.network/",
     },
@@ -1204,7 +1204,7 @@ const protocols: Protocol[] = [
     defillama: {
       slug: "",
       description: "",
-      logo: null,
+      logo: "https://checkpoint.exchange/logos/onebanking-logo.svg",
       twitter: "onebanking_app",
       url: "https://onebanking.app/",
     },
