@@ -1120,6 +1120,95 @@ const protocols: Protocol[] = [
       url: "https://app.saturn.credit/",
     },
   },
+  {
+    id: 72,
+    name: "Nado",
+    listedAt: 1781166533,
+    module: "adapters/nado.ts",
+    portfolioUrl: "https://app.nado.xyz/points",
+    referralUrl: "https://app.nado.xyz?join=ffm59v5",
+    defillama: {
+      slug: "nado",
+      description:
+        "Nado is a vertically-integrated decentralized exchange for spot and perpetual futures, featuring an off-chain sequencer and on-chain settlement on Ink. The platform delivers a high-performance CLOB experience where trades execute in milliseconds, with deep liquidity powered in part by the NLP (Nado Liquidity Provider) vault.",
+      logo: "https://icons.llama.fi/nado.jpg",
+      twitter: "nadohq",
+      url: "https://app.nado.xyz/",
+    },
+  },
+  {
+    id: 73,
+    name: "Fusion",
+    listedAt: 1781166533,
+    module: "adapters/fusion.ts",
+    portfolioUrl: "https://app.ipor.io/fusion/points",
+    referralUrl: "https://app.ipor.io/fusion?f=DUOYDBUAYlyfXpzXFvtX0psw17wd6",
+    defillama: {
+      slug: "fusion-by-ipor",
+      description:
+        "Fusion (by IPOR) is a meta DeFi aggregation, execution & intelligence engine that introduces a unified liquidity framework for on-chain asset management. Fusion combines various aggregation and routing protocols into a single smart contract layer, automating asset management and maximizing returns across yield sources. Imagine intelligence-driven execution for looping, carry trades, arbitrage, leveraged farming, and passive lending at your fingertips",
+      logo: "https://icons.llama.fi/fusion-by-ipor.svg",
+      twitter: "ipor_io",
+      url: "https://app.ipor.io/fusion",
+    },
+  },
+  {
+    id: 74,
+    name: "Hotstuff",
+    listedAt: 1781166533,
+    module: "adapters/hotstuff.ts",
+    portfolioUrl: "https://app.hotstuff.trade/",
+    defillama: {
+      slug: "hotstuff",
+      description:
+        "Hotstuff is a purpose-built DeFi Layer 1 with a mission to enable Confidential Integrated Finance.",
+      logo: "https://icons.llama.fi/hotstuff.jpg",
+      twitter: "tradehotstuff",
+      url: "https://app.hotstuff.trade/",
+    },
+  },
+  {
+    id: 75,
+    name: "Incentiv",
+    listedAt: 1781166533,
+    module: "adapters/incentiv.ts",
+    portfolioUrl: "https://portal.incentiv.io/,
+    defillama: {
+      slug: "",
+      description: "",
+      logo: null,
+      twitter: "https://incentiv.io/",
+      url: "https://x.com/Incentiv_net",
+    },
+  },
+  {
+    id: 76,
+    name: "Quip",
+    listedAt: 1781166533,
+    module: "adapters/quip.ts",
+    portfolioUrl: "https://quest.quip.network/airdrop",
+    defillama: {
+      slug: "",
+      description: "",
+      logo: null,
+      twitter: "quipnetwork",
+      url: "https://quip.network/",
+    },
+  },
+  {
+    id: 77,
+    name: "Onebanking",
+    listedAt: 1781166533,
+    module: "adapters/onebanking.ts",
+    portfolioUrl: "https://quests.onebanking.app/loyalty",
+    defillama: {
+      slug: "",
+      description: "",
+      logo: null,
+      twitter: "onebanking_app",
+      url: "https://onebanking.app/",
+    },
+  },
 ];
 
 export default protocols;
