@@ -592,7 +592,7 @@ const protocols: Protocol[] = [
       description:
         "Cap is a stablecoin protocol that provides credible financial guarantees via two products: the dollar-denominated cUSD and the yield-bearing stcUSD.",
       logo: "https://icons.llama.fi/cap.jpg",
-      twitter: "capmoney_",
+      twitter: "capapp",
       url: "https://cap.app/",
     },
   },
