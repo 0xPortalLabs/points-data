@@ -12,6 +12,19 @@ const DATA_FILE = path.join(
   "data.ts",
 );
 
+const getProtocol = async (
+  slug: string,
+  protocolsMap: Map<string, Record<string, string>>,
+) => {
+  const protocol = protocolsMap.get(slug);
+  if (protocol) return protocol;
+
+  const response = await fetch(`https://api.llama.fi/protocol/${slug}`);
+  if (!response.ok) return null;
+
+  return await response.json();
+};
+
 (async () => {
   try {
     const resProtocols = await (
@@ -33,8 +46,9 @@ const DATA_FILE = path.join(
         const { defillama } = protocol;
         if (!defillama?.slug) return protocol;
 
-        const map = defillama.isChain ? chainsMap : protocolsMap;
-        const llama = map.get(defillama.slug);
+        const llama = defillama.isChain
+          ? chainsMap.get(defillama.slug)
+          : await getProtocol(defillama.slug, protocolsMap);
         if (!llama) {
           throw new Error(`did not find protocol: ${defillama.slug}`);
         }

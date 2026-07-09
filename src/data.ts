@@ -1209,6 +1209,84 @@ const protocols: Protocol[] = [
       url: "https://onebanking.app/",
     },
   },
+  {
+    id: 78,
+    name: "Tori Finance",
+    listedAt: 1783575778,
+    module: "adapters/tori.ts",
+    referralUrl: "https://app.tori.finance/earn?referral=U7UDE",
+    portfolioUrl: "https://app.tori.finance/activities",
+    defillama: {
+      slug: "tori-finance",
+      description:
+        "Tori Finance is a synthetic dollar protocol where trUSD is backed by delta-neutral trading positions and can be staked into strUSD to earn yield from those market-neutral strategies.",
+      logo: "https://icons.llamao.fi/icons/protocols/tori-finance",
+      twitter: "tori_finance",
+      url: "https://tori.finance/",
+    },
+  },
+  {
+    id: 79,
+    name: "GenLayer",
+    listedAt: 1783575778,
+    module: "adapters/genlayer.ts",
+    referralUrl: "https://portal.genlayer.foundation/?ref=X680U5H3",
+    portfolioUrl: "https://portal.genlayer.foundation/community/leaderboard",
+    defillama: {
+      slug: "",
+      description:
+        "GenLayer is an AI-native blockchain designed for intelligent contracts that can connect to the internet and use large language models.",
+      logo: null,
+      twitter: "GenLayer",
+      url: "https://genlayer.foundation/",
+    },
+  },
+  {
+    id: 80,
+    name: "Makina",
+    listedAt: 1783575778,
+    module: "adapters/makina.ts",
+    portfolioUrl: "https://makina.finance/points",
+    defillama: {
+      slug: "makina",
+      description:
+        "Makina the most advanced DeFi Execution Engine empowering sophisticated Operators to execute onchain yield strategies which maximize risk-adjusted return.",
+      logo: "https://icons.llamao.fi/icons/protocols/makina-finance",
+      twitter: "makinafi",
+      url: "https://app.makina.finance/",
+    },
+  },
+  {
+    id: 81,
+    name: "ShMonad",
+    listedAt: 1783575778,
+    module: "adapters/shmonad.ts",
+    portfolioUrl: "https://shmonad.xyz/points",
+    defillama: {
+      slug: "shmonad",
+      description:
+        "Stake MON, get shMON, the liquid staking token that keeps earning + MEV rewards while you commit it to programmable policies. One token secures the network and backs your favourite dApps, all without sacrificing liquidity.",
+      logo: "https://icons.llamao.fi/icons/protocols/shmonad",
+      twitter: "0xFastLane",
+      url: "https://shmonad.xyz/",
+    },
+    symbol: "shMON",
+  },
+  {
+    id: 82,
+    name: "AFX Protocol",
+    listedAt: 1783575778,
+    module: "adapters/afx.ts",
+    portfolioUrl: "https://app.afx.xyz/points",
+    defillama: {
+      slug: "afx-protocol",
+      description:
+        "AFX is a high-performance sovereign L1 purpose-built for decentralized derivatives. By synthesizing the rapid execution of a centralized exchange with the immutable sovereignty of the blockchain, AFX delivers a professional-grade Perp DEX environment characterized by sub-100ms finality, institutional liquidity, and unmatched capital efficiency",
+      logo: "https://icons.llamao.fi/icons/protocols/afx-protocol",
+      twitter: "AFX_XYZ",
+      url: "https://app.afx.xyz/trade",
+    },
+  },
 ];
 
 export default protocols;
