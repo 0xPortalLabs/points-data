@@ -1287,6 +1287,55 @@ const protocols: Protocol[] = [
       url: "https://app.afx.xyz/trade",
     },
   },
+  {
+    id: 83,
+    name: "RE",
+    symbol: "RE",
+    listedAt: 1785303450,
+    module: "adapters/re.ts",
+    referralUrl: "https://app.re.xyz/?ref=checkpoint",
+    portfolioUrl: "https://app.re.xyz/points",
+    defillama: {
+      slug: "RE",
+      description:
+        "Re is a decentralized reinsurance protocol that bridges real-world insurance risk on-chain. It pools capital through stablecoins, issues tokenized receipt assets (reUSD, reUSDe), and allocates funds into regulated reinsurance contracts. Returns are generated from underwriting premiums and on-chain yield, with transparent reporting of collateral and performance.",
+      logo: "https://icons.llamao.fi/icons/protocols/re",
+      twitter: "re",
+      url: "https://app.re.xyz",
+    },
+  },
+  {
+    id: 84,
+    name: "Fairground",
+    listedAt: 1785303450,
+    module: "adapters/fairground.ts",
+    portfolioUrl: "https://fairground.fi/421614/rewards",
+    defillama: {
+      slug: "",
+      description:
+        "Fairground is a decentralized perpetuals exchange on Arbitrum with fixed fees, no funding rates, and one oracle price.",
+      logo: null,
+      twitter: "ForteProtocol",
+      url: "https://fairground.fi/",
+    },
+  },
+  {
+    id: 85,
+    name: "Ondo",
+    symbol: "ONDO",
+    listedAt: 1785303450,
+    module: "adapters/ondo.ts",
+    referralUrl: "https://app.ondoperps.xyz/?ref=6RJQ85",
+    portfolioUrl: "https://app.ondoperps.xyz/points",
+    defillama: {
+      slug: "ondo-finance",
+      description:
+        "This share class provides liquid exposure to an ETF of short-term U.S. Treasuries",
+      logo: "https://icons.llamao.fi/icons/protocols/ondo-finance",
+      twitter: "Ondo",
+      url: "https://ondo.finance",
+    },
+  },
 ];
 
 export default protocols;
