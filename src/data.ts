@@ -526,7 +526,7 @@ const protocols: Protocol[] = [
     referralUrl: "https://app.spark.fi/points/QTIFUX",
     portfolioUrl: "https://app.spark.fi/points",
     defillama: {
-      slug: "sparklend",
+      slug: "sparkfinance",
       description:
         "Spark is an at-scale stablecoin allocation engine capturing yield across DeFi, RWAs and exchanges. This yield is provided cross-chain to Savings USDS holders",
       logo: "https://icons.llama.fi/sparklend.jpg",
