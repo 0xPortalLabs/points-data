@@ -71,6 +71,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     portfolioUrl: "https://app.dolomite.io/balances",
     claimUrl: "https://app.dolomite.io/airdrop",
+    claimAvailable: true,
     module: "adapters/dolomite.ts",
     defillama: {
       slug: "dolomite",
@@ -148,6 +149,7 @@ const protocols: Protocol[] = [
       "https://kelpdao.xyz/restake/?utm_source=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://kelpdao.xyz/defi",
     claimUrl: "https://kerneldao.com/claim-airdrop/",
+    claimAvailable: true,
     module: "adapters/kelpdao.ts",
     defillama: {
       slug: "kelp",
@@ -165,6 +167,11 @@ const protocols: Protocol[] = [
     referralUrl: "https://www.lombard.finance/app/?referrer=pl7zti",
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
     claimUrl: "https://claim.lombard.finance",
+    // https://docs.lombard.finance/use/faq/bard (reviewed 2026-09-25)
+    claimSeasons: {
+      "Season 3": { claimAvailable: true, claimEndsAt: "2026-10-29T00:00:00Z" },
+      "Season 4": { claimAvailable: false },
+    },
     module: "adapters/lombard.ts",
     defillama: {
       slug: "lombard-lbtc",
@@ -374,6 +381,12 @@ const protocols: Protocol[] = [
     id: 24,
     name: "Treehouse Protocol",
     listedAt: 1743179811,
+    // https://www.treehouse.finance/blog/s2-airdrop (reviewed 2026-09-25)
+    claimSeasons: {
+      // S1 publication gives only Oct 27; stop promotion at the start of that UTC day.
+      "Season 1": { claimAvailable: true, claimEndsAt: "2026-10-27T00:00:00Z" },
+      "Season 2": { claimAvailable: true, claimEndsAt: "2026-11-25T07:00:00Z" },
+    },
     module: "adapters/treehouse.ts",
     referralUrl: "https://app.treehouse.finance/referral/E79CA",
     portfolioUrl: "https://app.treehouse.finance/portfolio",
@@ -469,6 +482,7 @@ const protocols: Protocol[] = [
     id: 30,
     name: "Infrared Finance",
     listedAt: 1745509142,
+    claimAvailable: false, // Legacy adapter notes the claim ended January 12, 2026.
     module: "adapters/infrared.ts",
     portfolioUrl: "https://infrared.finance/points",
     claimUrl: "https://infrared.finance/points",
@@ -486,6 +500,7 @@ const protocols: Protocol[] = [
     id: 31,
     name: "Ethena",
     listedAt: 1745790801,
+    claimAvailable: true,
     module: "adapters/ethena.ts",
     referralUrl: "https://app.ethena.fi/join/j9u8y",
     portfolioUrl: "https://app.ethena.fi/",
@@ -504,6 +519,11 @@ const protocols: Protocol[] = [
     id: 32,
     name: "deBridge",
     listedAt: 1746642287,
+    claimSeasons: {
+      "Season 1": { claimAvailable: false },
+      "Season 2": { claimAvailable: true },
+      "Season 3": { claimAvailable: false },
+    },
     module: "adapters/debridge.ts",
     referralUrl: "https://app.debridge.finance/r/31994",
     portfolioUrl: "https://app.debridge.finance",
@@ -659,6 +679,10 @@ const protocols: Protocol[] = [
     id: 42,
     name: "Harmonix Finance",
     listedAt: 1764713260,
+    claimSeasons: {
+      "Season 1": { claimAvailable: true },
+      "Season 2": { claimAvailable: false },
+    },
     module: "adapters/harmonix.ts",
     portfolioUrl: "https://app.harmonix.fi/points",
     claimUrl: "https://claim.harmonix.fi/",
@@ -782,6 +806,7 @@ const protocols: Protocol[] = [
     id: 50,
     name: "Rainbow",
     listedAt: 1768841401,
+    claimAvailable: true,
     module: "adapters/rainbow.ts",
     referralUrl: "https://www.rainbow.me/points?ref=M11FQR",
     portfolioUrl: "https://rainbow.me/",
@@ -934,6 +959,7 @@ const protocols: Protocol[] = [
     id: 60,
     name: "MegaETH",
     listedAt: 1777459800,
+    claimAvailable: false, // Legacy adapter claim deadline was June 10, 2026.
     module: "adapters/megaeth.ts",
     portfolioUrl: "https://terminal.megaeth.com/",
     defillama: {
@@ -1140,6 +1166,11 @@ const protocols: Protocol[] = [
     id: 73,
     name: "Fusion",
     listedAt: 1781166533,
+    // Legacy project-wide claim flag did not identify a claimable season.
+    claimSeasons: {
+      "Season 1": { claimAvailable: false },
+      "Season 2": { claimAvailable: false },
+    },
     module: "adapters/fusion.ts",
     portfolioUrl: "https://app.ipor.io/fusion/points",
     referralUrl: "https://app.ipor.io/fusion?f=DUOYDBUAYlyfXpzXFvtX0psw17wd6",
