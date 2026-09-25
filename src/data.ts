@@ -71,7 +71,7 @@ const protocols: Protocol[] = [
     listedAt: 1741711269,
     portfolioUrl: "https://app.dolomite.io/balances",
     claimUrl: "https://app.dolomite.io/airdrop",
-    claimAvailable: true,
+    claimAvailable: false,
     module: "adapters/dolomite.ts",
     defillama: {
       slug: "dolomite",
@@ -521,7 +521,7 @@ const protocols: Protocol[] = [
     listedAt: 1746642287,
     claimSeasons: {
       "Season 1": { claimAvailable: false },
-      "Season 2": { claimAvailable: true },
+      "Season 2": { claimAvailable: false, claimEndsAt: "2025-12-19T12:00:00Z" },
       "Season 3": { claimAvailable: false },
     },
     module: "adapters/debridge.ts",
