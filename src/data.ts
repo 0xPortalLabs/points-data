@@ -4,10 +4,12 @@ const protocols: Protocol[] = [
   {
     id: 1,
     name: "Avalon Finance",
+    category: "Lending",
     listedAt: 1741711269,
     portfolioUrl: "https://app.avalonfinance.xyz/rewards",
     module: "adapters/avalon.ts",
     defillama: {
+      category: "Lending",
       slug: "avalon-finance",
       description: "The Liquidity Hub For BTC LSDFi and CeDeFi Lending",
       logo: "https://icons.llama.fi/avalon-labs.jpg",
@@ -18,12 +20,14 @@ const protocols: Protocol[] = [
   {
     id: 2,
     name: "Aster",
+    category: "DEX",
     listedAt: 1741711269,
     referralUrl: "https://www.asterdex.com/en/referral/1403b1",
     portfolioUrl: "https://www.asterdex.com/en/stage1/team",
     claimUrl: "https://www.asterdex.com/en/airdrop",
     module: "adapters/astherus.ts",
     defillama: {
+      category: "Derivatives",
       slug: "aster-perps",
       description:
         "Astherus is a liquidity hub for staked assets such as LSTs (liquid staking tokens) and LRTs (liquid restaking tokens), aiming to scale their utilization and boost user profitability.",
@@ -36,10 +40,12 @@ const protocols: Protocol[] = [
   {
     id: 3,
     name: "Bedrock",
+    category: "DeFi",
     listedAt: 1741711269,
     portfolioUrl: "https://app.bedrock.technology",
     module: "adapters/bedrock.ts",
     defillama: {
+      category: "Anchor BTC",
       slug: "bedrock-unibtc",
       description: "BTC staked into babylon",
       logo: "https://icons.llama.fi/bedrock-unibtc.jpg",
@@ -51,11 +57,13 @@ const protocols: Protocol[] = [
   {
     id: 4,
     name: "Corn",
+    category: "Yield",
     listedAt: 1741711269,
     referralUrl: "https://usecorn.com/app",
     portfolioUrl: "https://usecorn.com/app",
     module: "adapters/corn.ts",
     defillama: {
+      category: "Farm",
       slug: "corn-kernels",
       description:
         "Kernels are off-chain points that represent your share of the initial $CORN Community Airdrop",
@@ -68,12 +76,14 @@ const protocols: Protocol[] = [
   {
     id: 5,
     name: "Dolomite",
+    category: "Lending",
     listedAt: 1741711269,
     portfolioUrl: "https://app.dolomite.io/balances",
     claimUrl: "https://app.dolomite.io/airdrop",
     claimAvailable: false,
     module: "adapters/dolomite.ts",
     defillama: {
+      category: "Lending",
       slug: "dolomite",
       description: "A next-gen money market and DeFi prime brokerage.",
       logo: "https://icons.llama.fi/dolomite.jpg",
@@ -85,6 +95,7 @@ const protocols: Protocol[] = [
   {
     id: 6,
     name: "EtherFi",
+    category: "Staking",
     symbol: "ETHFI",
     listedAt: 1741711269,
     referralUrl:
@@ -92,6 +103,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.ether.fi",
     module: "adapters/etherfi.ts",
     defillama: {
+      category: "Liquid Staking",
       slug: "ether.fi-stake",
       description:
         "An automated vault that earns you Symbiotic, Veda or ether.fi points on your liquid staking assets.",
@@ -103,6 +115,7 @@ const protocols: Protocol[] = [
   {
     id: 7,
     name: "Gravity Finance",
+    category: "DEX",
     symbol: "GFI",
     listedAt: 1741711269,
     referralUrl:
@@ -110,6 +123,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://gravityfinance.io/rewards",
     module: "adapters/gravityfinance.ts",
     defillama: {
+      category: "Dexs",
       slug: "gravity-finance",
       description:
         "Gravity Finance is a DeFi platform, consisting of a Decentralised Exchange, Yield Farms, Auto-Compounding Vaults, an IDO Launchpad and Automated Investment Strategies called Silos. Gravity Admin Fees are paid to Governance Token Holders as ETH and BTC.",
@@ -121,6 +135,7 @@ const protocols: Protocol[] = [
   {
     id: 8,
     name: "Henlo",
+    category: "Other",
     symbol: "HEN",
     listedAt: 1741711269,
     portfolioUrl: "https://app.henlo.com",
@@ -129,10 +144,12 @@ const protocols: Protocol[] = [
   {
     id: 9,
     name: "Karak",
+    category: "Staking",
     listedAt: 1741711269,
     portfolioUrl: "https://app.karak.network/portfolio",
     module: "adapters/karak.ts",
     defillama: {
+      category: "Restaking",
       slug: "opengdp-shared-security",
       description:
         "The universal restaking layer powered by the entire cryptoeconomy.",
@@ -144,6 +161,7 @@ const protocols: Protocol[] = [
   {
     id: 10,
     name: "KelpDAO",
+    category: "Staking",
     listedAt: 1741711269,
     referralUrl:
       "https://kelpdao.xyz/restake/?utm_source=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
@@ -152,6 +170,7 @@ const protocols: Protocol[] = [
     claimAvailable: true,
     module: "adapters/kelpdao.ts",
     defillama: {
+      category: "Liquid Restaking",
       slug: "kelp",
       description:
         "Kelp is the second largest liquid restaking protocol with ~$2B+ in TVL. Its liquid restaked token, rsETH, is live across 10+ major L2s and 40+ DeFi platforms, allowing users to restake while maintaining full liquidity.",
@@ -163,6 +182,13 @@ const protocols: Protocol[] = [
   {
     id: 11,
     name: "Lombard",
+    category: "DeFi",
+    categoryOverride: {
+      category: "DeFi",
+      reason:
+        "Classifies Lombard's broader Bitcoin DeFi product suite; the exact listing covers LBTC.",
+      source: "https://www.lombard.finance/",
+    },
     listedAt: 1741711269,
     referralUrl: "https://www.lombard.finance/app/?referrer=pl7zti",
     portfolioUrl: "https://www.lombard.finance/app/dashboard",
@@ -174,6 +200,7 @@ const protocols: Protocol[] = [
     },
     module: "adapters/lombard.ts",
     defillama: {
+      category: "Restaked BTC",
       slug: "lombard-lbtc",
       description:
         "Lombard is transforming Bitcoin's utility from a store of value into a productive financial tool through a security-first liquid Bitcoin primitive—LBTC. LBTC is a liquid, yield-bearing, natively cross-chain, and 1:1 backed by bitcoin.",
@@ -186,12 +213,14 @@ const protocols: Protocol[] = [
   {
     id: 12,
     name: "mETH Protocol",
+    category: "Staking",
     listedAt: 1741711269,
     portfolioUrl: "https://app.methprotocol.xyz/campaigns/methamorphosis-s3",
     module: "adapters/methprotocol.ts",
     referralUrl:
       "https://app.methprotocol.xyz/campaigns/methamorphosis-s3/c1eM098z08",
     defillama: {
+      category: "Liquid Staking",
       slug: "meth-protocol",
       description:
         "A permissionless, non-custodial ETH liquid staking protocol deployed on Ethereum L1 and governed by Mantle.",
@@ -204,6 +233,13 @@ const protocols: Protocol[] = [
   {
     id: 13,
     name: "Ramen",
+    category: "Launchpad",
+    categoryOverride: {
+      category: "Launchpad",
+      reason:
+        "Official documentation identifies Ramen as a token launchpad.",
+      source: "https://docs.ramen.finance/ramen/resources/key-partners",
+    },
     symbol: "RAM",
     listedAt: 1741711269,
     portfolioUrl: "https://app.ramen.finance/stake",
@@ -220,6 +256,7 @@ const protocols: Protocol[] = [
   {
     id: 14,
     name: "Resolv",
+    category: "Other",
     listedAt: 1741711269,
     referralUrl: "https://app.resolv.xyz/ref/portal-labs",
     portfolioUrl: "https://app.resolv.xyz/points",
@@ -237,12 +274,14 @@ const protocols: Protocol[] = [
   {
     id: 15,
     name: "Solv Finance",
+    category: "Bridge",
     symbol: "SOLV",
     listedAt: 1741711269,
     referralUrl: "https://app.solv.finance/points/MRNNDW",
     portfolioUrl: "https://app.solv.finance/points",
     module: "adapters/solv.ts",
     defillama: {
+      category: "Bridge",
       slug: "solvbtc",
       description: "Earn Solv Points By Staking Your BTC",
       logo: "https://icons.llama.fi/solvbtc.jpg",
@@ -253,6 +292,7 @@ const protocols: Protocol[] = [
   {
     id: 16,
     name: "Sonic",
+    category: "Chain",
     symbol: "S",
     listedAt: 1741711269,
     portfolioUrl: "https://my.soniclabs.com/points",
@@ -270,11 +310,13 @@ const protocols: Protocol[] = [
   {
     id: 17,
     name: "Superform",
+    category: "Yield",
     listedAt: 1741711269,
     portfolioUrl: "https://rewards.superform.xyz",
     referralUrl: "https://app.superform.xyz/?ref=2eSYf5ugHvWCGTs3HRTNt",
     module: "adapters/superform.ts",
     defillama: {
+      category: "Yield Aggregator",
       slug: "superform",
       description:
         "Superform is the onchain wealth app. Superform earns you the best returns on your crypto to grow your onchain wealth. Use SuperVaults to automatically optimize your earnings, or build your customized portfolio by directly depositing into over 800 earning opportunities",
@@ -287,6 +329,7 @@ const protocols: Protocol[] = [
   {
     id: 18,
     name: "Swaps.io",
+    category: "Other",
     listedAt: 1741711269,
     portfolioUrl: "https://swaps.io/",
     module: "adapters/swapsio.ts",
@@ -302,10 +345,12 @@ const protocols: Protocol[] = [
   {
     id: 19,
     name: "Silo Finance",
+    category: "Lending",
     listedAt: 1742925546,
     portfolioUrl: "https://points.silo.finance/",
     module: "adapters/silofinance.ts",
     defillama: {
+      category: "Lending",
       slug: "silo-v2",
       description:
         "Silo Finance creates permissionless and risk-isolated lending markets.",
@@ -318,10 +363,12 @@ const protocols: Protocol[] = [
   {
     id: 20,
     name: "SwapX",
+    category: "DEX",
     listedAt: 1742925546,
     module: "adapters/swapx.ts",
     portfolioUrl: "https://swapx.fi/airdrop",
     defillama: {
+      category: "Dexs",
       slug: "swapx-v2",
       description:
         "SwapX, Sonic's native DEX, leverages Algebra V4 for advanced concentrated liquidity management and ve(3,3) tokenomics while pioneering modular DeFi with plugin technology",
@@ -334,12 +381,14 @@ const protocols: Protocol[] = [
   {
     id: 21,
     name: "Trevee Earn",
+    category: "Yield",
     listedAt: 1743179811,
     module: "adapters/rings.ts",
     referralUrl:
       "https://app.rings.money/#/points?referrer=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://app.rings.money/#/points",
     defillama: {
+      category: "Yield Aggregator",
       slug: "trevee-earn",
       description:
         "Rings is a meta-stablecoin for USD & ETH offering competitive yield for stakers, providing deep liquidity for Sonic DeFi, and funding Sonic DeFi projects via its lockers.",
@@ -351,10 +400,12 @@ const protocols: Protocol[] = [
   {
     id: 22,
     name: "Symbiotic",
+    category: "DeFi",
     listedAt: 1743179811,
     module: "adapters/symbiotic.ts",
     portfolioUrl: "https://app.symbiotic.fi/dashboard/positions",
     defillama: {
+      category: "Collateral Markets",
       slug: "symbiotic",
       description:
         "Symbiotic is a generalized shared security system enabling decentralized networks to bootstrap powerful, fully sovereign ecosystems.",
@@ -366,6 +417,7 @@ const protocols: Protocol[] = [
   {
     id: 23,
     name: "Syrup",
+    category: "Other",
     listedAt: 1743179811,
     module: "adapters/syrup.ts",
     portfolioUrl: "https://app.maple.finance/earn/portfolio",
@@ -380,6 +432,7 @@ const protocols: Protocol[] = [
   {
     id: 24,
     name: "Treehouse Protocol",
+    category: "Other",
     listedAt: 1743179811,
     // https://www.treehouse.finance/blog/s2-airdrop (reviewed 2026-09-25)
     claimSeasons: {
@@ -392,6 +445,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.treehouse.finance/portfolio",
     claimUrl: "https://gaiafoundation.xyz/",
     defillama: {
+      category: "DOR",
       slug: "treehouse-protocol",
       description:
         "Treehouse is a decentralized application that introduces Treehouse Assets (tAssets) and Decentralized Offered Rates (DOR), new primitives that enable fixed income products in digital assets.",
@@ -404,10 +458,12 @@ const protocols: Protocol[] = [
   {
     id: 25,
     name: "Veda",
+    category: "Yield",
     listedAt: 1743179811,
     module: "adapters/veda.ts",
     portfolioUrl: "https://app.veda.tech/points",
     defillama: {
+      category: "Onchain Capital Allocator",
       slug: "veda",
       description:
         "Veda is the leading DeFi vault platform, enabling crypto applications, asset issuers, and protocols to build consumer-grade cross chain yield products. Veda's technology is powering many of DeFi's largest vault products, including ether.fi Liquid, Lombard DeFi Vault, and Mantle cmETH",
@@ -419,11 +475,19 @@ const protocols: Protocol[] = [
   {
     id: 26,
     name: "Ethereal",
+    category: "DEX",
+    categoryOverride: {
+      category: "DEX",
+      reason:
+        "Official documentation identifies the Ethereal perps DEX; the retained slug covers its Season Zero deposit farm.",
+      source: "https://docs.ethereal.trade/",
+    },
     listedAt: 1743287542,
     module: "adapters/ethereal.ts",
     portfolioUrl: "https://deposit.ethereal.trade/points",
     referralUrl: "https://deposit.ethereal.trade/waitlist?ref=OAE517",
     defillama: {
+      category: "Farm",
       slug: "ethereal-season-zero",
       description:
         "Ethereal is a decentralized spot and perpetuals exchange built on the Ethena Network, powered by native USDe collateral. With institutional-grade performance (sub-20ms latency, 1M+ orders/s) and DeFi-enabled self-custody from day one, Ethereal aims to be the premier trading venue for the rapidly growing Ethena ecosystem and beyond",
@@ -435,11 +499,13 @@ const protocols: Protocol[] = [
   {
     id: 27,
     name: "Level Money",
+    category: "Stables",
     listedAt: 1743333920,
     module: "adapters/level.ts",
     referralUrl: "https://app.level.money/farm?referralCode=1vfdc0",
     portfolioUrl: "https://app.level.money",
     defillama: {
+      category: "CDP",
       slug: "level",
       description:
         "Level is a yield-bearing stablecoin protocol powered by USDT and USDC deposited into DeFi-native sources.",
@@ -451,6 +517,7 @@ const protocols: Protocol[] = [
   {
     id: 28,
     name: "Taiko",
+    category: "Chain",
     listedAt: 1743552397,
     module: "adapters/taiko.ts",
     portfolioUrl: "https://trailblazers.taiko.xyz/",
@@ -467,6 +534,13 @@ const protocols: Protocol[] = [
   {
     id: 29,
     name: "Jumper Exchange",
+    category: "DEX",
+    categoryOverride: {
+      category: "DEX",
+      reason:
+        "Classifies the trading app; the exact parent listing spans DEX and bridge aggregation.",
+      source: "https://jumper.xyz/",
+    },
     listedAt: 1744122637,
     module: "adapters/jumperexchange.ts",
     portfolioUrl: "https://jumper.exchange/profile",
@@ -481,12 +555,14 @@ const protocols: Protocol[] = [
   {
     id: 30,
     name: "Infrared Finance",
+    category: "Staking",
     listedAt: 1745509142,
     claimAvailable: false, // Legacy adapter notes the claim ended January 12, 2026.
     module: "adapters/infrared.ts",
     portfolioUrl: "https://infrared.finance/points",
     claimUrl: "https://infrared.finance/points",
     defillama: {
+      category: "Liquid Staking",
       slug: "infrared-finance",
       description:
         "Infrared is a decentralized protocol that allows users to earn yield on their assets by staking them in a decentralized manner.",
@@ -499,6 +575,13 @@ const protocols: Protocol[] = [
   {
     id: 31,
     name: "Ethena",
+    category: "Stables",
+    categoryOverride: {
+      category: "Stables",
+      reason:
+        "Classifies the USDe synthetic-dollar product rather than its upstream yield strategy.",
+      source: "https://ethena.fi/",
+    },
     listedAt: 1745790801,
     claimAvailable: true,
     module: "adapters/ethena.ts",
@@ -506,6 +589,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.ethena.fi/",
     claimUrl: "https://ethena.liquifi.finance/",
     defillama: {
+      category: "Basis Trading",
       slug: "ethena-usde",
       description:
         "Ethena is a decentralized protocol that allows users to earn yield on their assets by staking them in a decentralized manner.",
@@ -518,6 +602,7 @@ const protocols: Protocol[] = [
   {
     id: 32,
     name: "deBridge",
+    category: "Bridge",
     listedAt: 1746642287,
     claimSeasons: {
       "Season 1": { claimAvailable: false },
@@ -529,6 +614,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.debridge.finance",
     claimUrl: "https://debridge.foundation/checker",
     defillama: {
+      category: "Bridge",
       slug: "debridge",
       description:
         "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows the decentralized transfer of arbitrary data and assets between various blockchains",
@@ -541,6 +627,7 @@ const protocols: Protocol[] = [
   {
     id: 33,
     name: "Spark",
+    category: "Other",
     listedAt: 1748200290,
     module: "adapters/spark.ts",
     referralUrl: "https://app.spark.fi/points/QTIFUX",
@@ -558,10 +645,12 @@ const protocols: Protocol[] = [
   {
     id: 34,
     name: "Kinetiq",
+    category: "Staking",
     listedAt: 1761693007,
     module: "adapters/kinetiq.ts",
     portfolioUrl: "https://kinetiq.xyz/kPoints",
     defillama: {
+      category: "Liquid Staking",
       slug: "kinetiq-khype",
       description:
         "Kinetiq Earn puts your HYPE and kHYPE to work across leading DeFi protocols on HyperEVM, optimizing for the best risk-adjusted returns. Powered by Veda.",
@@ -573,11 +662,13 @@ const protocols: Protocol[] = [
   {
     id: 35,
     name: "Hyperflow",
+    category: "DEX",
     listedAt: 1761777901,
     module: "adapters/hyperflow.ts",
     portfolioUrl: "https://hyperflow.fun/points",
     referralUrl: "https://hyperflow.fun?ref=A3GGq",
     defillama: {
+      category: "DEX Aggregator",
       slug: "hyperflow",
       description:
         "Hyperflow is a DEX and bridge aggregator for swapping and transferring assets to Hyperliquid",
@@ -589,10 +680,12 @@ const protocols: Protocol[] = [
   {
     id: 36,
     name: "Hypurr",
+    category: "Lending",
     listedAt: 1761937565,
     module: "adapters/hypurr.ts",
     portfolioUrl: "https://app.hypurr.fi/points",
     defillama: {
+      category: "Lending",
       slug: "hypurrfi-pooled",
       description:
         "Collateralize borrowing positions and loop and lever up your yield",
@@ -604,10 +697,12 @@ const protocols: Protocol[] = [
   {
     id: 37,
     name: "Cap",
+    category: "Lending",
     listedAt: 1762378380,
     module: "adapters/cap.ts",
     portfolioUrl: "https://cap.app/caps",
     defillama: {
+      category: "Lending",
       slug: "cap",
       description:
         "Cap is a stablecoin protocol that provides credible financial guarantees via two products: the dollar-denominated cUSD and the yield-bearing stcUSD.",
@@ -619,10 +714,18 @@ const protocols: Protocol[] = [
   {
     id: 38,
     name: "Felix",
+    category: "Lending",
+    categoryOverride: {
+      category: "Lending",
+      reason:
+        "Classifies the broader Felix lending integration; the existing slug identifies only the USDhl yield product.",
+      source: "https://www.usefelix.xyz/",
+    },
     listedAt: 1762470838,
     module: "adapters/felix.ts",
     portfolioUrl: "https://www.usefelix.xyz/points",
     defillama: {
+      category: "Yield",
       slug: "felix-usdhl",
       description:
         "USDhl is a fiat stable custom-built for the Hyperliquid ecosystem, serving as a building block for HIP-3, fx, payments, and more",
@@ -634,6 +737,13 @@ const protocols: Protocol[] = [
   {
     id: 39,
     name: "Nansen",
+    category: "Info",
+    categoryOverride: {
+      category: "Info",
+      reason:
+        "Classifies Nansen's wallet intelligence and data platform.",
+      source: "https://nansen.ai/",
+    },
     listedAt: 1762896477,
     module: "adapters/nansen.ts",
     portfolioUrl: "https://app.nansen.ai/points",
@@ -649,6 +759,7 @@ const protocols: Protocol[] = [
   {
     id: 40,
     name: "Project X",
+    category: "Other",
     listedAt: 1763414117,
     module: "adapters/prjx.ts",
     portfolioUrl: "https://www.prjx.com/portfolio",
@@ -664,6 +775,13 @@ const protocols: Protocol[] = [
   {
     id: 41,
     name: "Galxe",
+    category: "Rewards",
+    categoryOverride: {
+      category: "Rewards",
+      reason:
+        "Official Galxe Quest and Earndrop products provide reward-based loyalty programmes.",
+      source: "https://www.galxe.com/",
+    },
     listedAt: 1763414117,
     module: "adapters/galxe.ts",
     portfolioUrl: "https://app.galxe.com/hub",
@@ -678,6 +796,7 @@ const protocols: Protocol[] = [
   {
     id: 42,
     name: "Harmonix Finance",
+    category: "Yield",
     listedAt: 1764713260,
     claimSeasons: {
       "Season 1": { claimAvailable: true },
@@ -688,6 +807,7 @@ const protocols: Protocol[] = [
     claimUrl: "https://claim.harmonix.fi/",
     referralUrl: "https://app.harmonix.fi/?ref=kJpHZ5ie",
     defillama: {
+      category: "Yield",
       slug: "harmonix-finance",
       description:
         "Harmonix Finance is where TradFi meets DeFi: automated vaults, smart strategies, and max gains with min risk. We are building efficient hedge fund on-chain derivatives pools using hedge fund strategies (like options wheel & delta neutral) where users deposit fund and receive high yield & multiple tokens airdrop",
@@ -700,10 +820,12 @@ const protocols: Protocol[] = [
   {
     id: 43,
     name: "Mellow",
+    category: "Yield",
     listedAt: 1763414117,
     module: "adapters/mellow.ts",
     portfolioUrl: "https://app.mellow.finance/dashboard",
     defillama: {
+      category: "Yield Aggregator",
       slug: "mellow-yield",
       description:
         "Mellow Protocol is a permissionless system for active liquidity management and building trustless automatic DeFi strategies",
@@ -715,10 +837,12 @@ const protocols: Protocol[] = [
   {
     id: 44,
     name: "Doma",
+    category: "Yield",
     listedAt: 1765994806,
     module: "adapters/doma.ts",
     portfolioUrl: "https://app.doma.xyz/profile/",
     defillama: {
+      category: "Yield",
       slug: "doma",
       description:
         "Doma is a DomainFi protocol enabling fractionalization of web3 domains on the Doma L2 (Chain ID: 97477).",
@@ -730,10 +854,12 @@ const protocols: Protocol[] = [
   {
     id: 45,
     name: "infiniFi",
+    category: "Yield",
     listedAt: 1766076106,
     module: "adapters/infinifi.ts",
     portfolioUrl: "https://app.infinifi.xyz/points",
     defillama: {
+      category: "Yield",
       slug: "infinifi",
       description:
         "infiniFi is building the future of decentralized finance by recreating modern banking infrastructure—on-chain. By merging liquid and illiquid assets into a capital-efficient system with transparent fractional reserves, infiniFi delivers superior yields to depositors without increasing systemic risk. Founded in 2024, infiniFi is backed by top Web3 investors and is integrated with major protocols like AAVE, Pendle, and Ethena.",
@@ -745,6 +871,7 @@ const protocols: Protocol[] = [
   {
     id: 46,
     name: "Around The World",
+    category: "Other",
     listedAt: 1766076106,
     module: "adapters/aroundtw.ts",
     portfolioUrl: "https://www.aroundtheworld.fun/",
@@ -760,6 +887,13 @@ const protocols: Protocol[] = [
   {
     id: 47,
     name: "Rips",
+    category: "Mini App",
+    categoryOverride: {
+      category: "Mini App",
+      reason:
+        "Official Farcaster frame manifest confirms the Rips mini app.",
+      source: "https://rips.app/.well-known/farcaster.json",
+    },
     listedAt: 1768772485,
     module: "adapters/rip.ts",
     portfolioUrl: "https://rips.app/",
@@ -775,6 +909,14 @@ const protocols: Protocol[] = [
   {
     id: 48,
     name: "The Leaderboard",
+    category: "Mini App",
+    categoryOverride: {
+      category: "Mini App",
+      reason:
+        "The official Farcaster listing identifies this product as a mini app.",
+      source:
+        "https://farcaster.xyz/miniapps/0195fc74-6cde-b71e-df43-98e0d6768e32/the-leaderboard",
+    },
     listedAt: 1768772485,
     module: "adapters/theleaderboard.ts",
     portfolioUrl:
@@ -790,6 +932,7 @@ const protocols: Protocol[] = [
   {
     id: 49,
     name: "Betrmint",
+    category: "Other",
     listedAt: 1768772485,
     module: "adapters/betrmint.ts",
     portfolioUrl: "https://farcaster.xyz/miniapps/yG210D-5eNqL/betrmint",
@@ -805,6 +948,7 @@ const protocols: Protocol[] = [
   {
     id: 50,
     name: "Rainbow",
+    category: "Wallet",
     listedAt: 1768841401,
     claimAvailable: true,
     module: "adapters/rainbow.ts",
@@ -812,6 +956,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://rainbow.me/",
     claimUrl: "https://www.rainbow.me/points?ref=M11FQR",
     defillama: {
+      category: "Wallets",
       slug: "rainbow-wallet",
       description:
         "The fun, simple, & secure way to explore Web3, NFTs, & Ethereum",
@@ -823,11 +968,13 @@ const protocols: Protocol[] = [
   {
     id: 51,
     name: "Hypersurface",
+    category: "DEX",
     listedAt: 1768921932,
     module: "adapters/hypersurface.ts",
     referralUrl: "https://app.hypersurface.io/rewards?referrer=checkpoint",
     portfolioUrl: "https://app.hypersurface.io/rewards",
     defillama: {
+      category: "Options",
       slug: "hypersurface",
       description:
         "DeFi structured products platform offering volatility yield through covered calls and cash-secured puts.",
@@ -839,6 +986,7 @@ const protocols: Protocol[] = [
   {
     id: 52,
     name: "Inflynce",
+    category: "Other",
     listedAt: 1768947570,
     module: "adapters/inflynce.ts",
     portfolioUrl: "https://farcaster.xyz/miniapps/TrnTSlXGbRDg/inflynce",
@@ -846,11 +994,13 @@ const protocols: Protocol[] = [
   {
     id: 53,
     name: "Theo",
+    category: "RWA",
     listedAt: 1769463698,
     module: "adapters/theo.ts",
     portfolioUrl: "https://app.theo.xyz/points",
     referralUrl: "https://app.theo.xyz/invite?invite=checkpoint",
     defillama: {
+      category: "RWA",
       slug: "theo-network-thbill",
       description:
         "thBILL is a yield-bearing basket of tokenized U.S. Treasury bills from regulated issuers, designed as a stable core asset within the Theo ecosystem.",
@@ -862,10 +1012,12 @@ const protocols: Protocol[] = [
   {
     id: 54,
     name: "USD AI",
+    category: "RWA",
     listedAt: 1770329565,
     module: "adapters/usdai.ts",
     portfolioUrl: "https://app.usd.ai/?tab=portfolio",
     defillama: {
+      category: "RWA",
       slug: "usd-ai",
       description:
         "USD.AI is a yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
@@ -877,11 +1029,13 @@ const protocols: Protocol[] = [
   {
     id: 55,
     name: "Reya",
+    category: "DEX",
     listedAt: 1770329565,
     module: "adapters/reya.ts",
     referralUrl: "https://app.reya.xyz/trade?referredBy=9uu02p9e",
     portfolioUrl: "https://app.reya.xyz/",
     defillama: {
+      category: "Derivatives",
       slug: "reya-perps",
       description:
         "The only DEX where speed never compromises security. Uniquely built as a based-rollup powered by zk-proofs, Reya DEX delivers 1 millisecond speed, 0 trading fees and 100% Ethereum uptime and security",
@@ -893,6 +1047,7 @@ const protocols: Protocol[] = [
   {
     id: 56,
     name: "Blockscout",
+    category: "Other",
     listedAt: 1771368291,
     module: "adapters/blockscout.ts",
     portfolioUrl: "https://merits.blockscout.com/",
@@ -909,6 +1064,7 @@ const protocols: Protocol[] = [
   {
     id: 57,
     name: "Plume",
+    category: "Chain",
     listedAt: 1772488729,
     module: "adapters/plume.ts",
     portfolioUrl: "https://portal.plume.org/",
@@ -927,11 +1083,13 @@ const protocols: Protocol[] = [
   {
     id: 58,
     name: "Liquid",
+    category: "DeFi",
     listedAt: 1777451018,
     module: "adapters/liquid.ts",
     portfolioUrl: "https://app.tryliquid.xyz/points",
     referralUrl: "https://app.tryliquid.xyz/?ref=CHECKPOINT",
     defillama: {
+      category: "Interface",
       slug: "liquid-perps",
       description:
         "Liquid provides a way to trade Bitcoin, ETH, and trending tokens with up to 40x leverage",
@@ -943,11 +1101,13 @@ const protocols: Protocol[] = [
   {
     id: 59,
     name: "Ostium",
+    category: "DEX",
     listedAt: 1777453140,
     module: "adapters/ostium.ts",
     portfolioUrl: "https://app.ostium.com/points",
     referralUrl: "https://ostium.app/trade?ref=GUBPP",
     defillama: {
+      category: "Derivatives",
       slug: "ostium",
       description: "Trade FX, metals, energy, & RWAs from your wallet",
       logo: "https://icons.llama.fi/ostium.png",
@@ -958,6 +1118,7 @@ const protocols: Protocol[] = [
   {
     id: 60,
     name: "MegaETH",
+    category: "Chain",
     listedAt: 1777459800,
     claimAvailable: false, // Legacy adapter claim deadline was June 10, 2026.
     module: "adapters/megaeth.ts",
@@ -976,6 +1137,7 @@ const protocols: Protocol[] = [
   {
     id: 61,
     name: "IntegraLayer",
+    category: "Other",
     listedAt: 1777529700,
     module: "adapters/integralayer.ts",
     portfolioUrl: "https://dashboard.integralayer.com/stats",
@@ -991,11 +1153,13 @@ const protocols: Protocol[] = [
   {
     id: 62,
     name: "Strata",
+    category: "Yield",
     listedAt: 1778040060,
     module: "adapters/strata.ts",
     referralUrl: "https://app.strata.markets/?ref=00MRIwxN",
     portfolioUrl: "https://app.strata.markets/points",
     defillama: {
+      category: "Yield",
       slug: "strata-markets",
       description:
         "Strata is a risk-tranching protocol that creates structured yield products for assets like USDe, NUSD, Midas assets, and USDat while rewarding early users and liquidity providers with Strata points.",
@@ -1007,11 +1171,13 @@ const protocols: Protocol[] = [
   {
     id: 63,
     name: "APYX",
+    category: "RWA",
     listedAt: 1778041620,
     module: "adapters/apyx.ts",
     referralUrl: "https://app.apyx.fi/join/5x81uif",
     portfolioUrl: "https://app.apyx.fi/rewards",
     defillama: {
+      category: "RWA",
       slug: "apyx-protocol",
       description:
         "Apyx Protocol issues apxUSD, a synthetic dollar on Ethereum, and apyUSD, an ERC-4626 savings vault for apxUSD. Its Pips program rewards users for holding, locking, committing, and using eligible DeFi positions.",
@@ -1023,11 +1189,13 @@ const protocols: Protocol[] = [
   {
     id: 64,
     name: "Avant",
+    category: "Yield",
     listedAt: 1778049780,
     module: "adapters/avant.ts",
     portfolioUrl: "https://app.avantprotocol.com/rewards",
     referralUrl: "https://app.avantprotocol.com/rewards?ref=checkpoint",
     defillama: {
+      category: "Onchain Capital Allocator",
       slug: "avant-avusd",
       description:
         "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart.",
@@ -1039,10 +1207,12 @@ const protocols: Protocol[] = [
   {
     id: 65,
     name: "Mainstreet",
+    category: "Yield",
     listedAt: 1778052420,
     module: "adapters/mainstreet.ts",
     portfolioUrl: "https://mainstreet.finance/rewards/campaigns",
     defillama: {
+      category: "Yield",
       slug: "mainstreet",
       description: "Rebasing synthetic dollar",
       logo: "https://icons.llama.fi/mainstreet.jpg",
@@ -1053,10 +1223,12 @@ const protocols: Protocol[] = [
   {
     id: 66,
     name: "Sierra Protocol",
+    category: "Yield",
     listedAt: 1778055120,
     module: "adapters/sierra.ts",
     portfolioUrl: "https://app.sierra.money/peaks",
     defillama: {
+      category: "Yield",
       slug: "sierra-protocol",
       description:
         "The Sierra Protocol reimagines money by issuing SIERRA, a Liquid Yield Token (LYT) built to deliver the best user experience across CeFi and DeFi",
@@ -1069,12 +1241,14 @@ const protocols: Protocol[] = [
   {
     id: 67,
     name: "Altura",
+    category: "Yield",
     listedAt: 1778063238,
     module: "adapters/altura.ts",
     referralUrl:
       "https://app.altura.trade/?referral=0xD3bE243C7B11Cc0233af0cAeBAc54b713d1403b1",
     portfolioUrl: "https://app.altura.trade/airdrop",
     defillama: {
+      category: "Liquidity Manager",
       slug: "altura",
       description:
         "Altura is an on-chain capital management protocol offering a multi-strategy stablecoin vault on HyperEVM.",
@@ -1086,11 +1260,13 @@ const protocols: Protocol[] = [
   {
     id: 68,
     name: "Valantis",
+    category: "DEX",
     listedAt: 1778067000,
     module: "adapters/valantis.ts",
     referralUrl: "https://app.valantis.xyz/vaults?af=dyt-1rn6-3b6",
     portfolioUrl: "https://app.valantis.xyz/points",
     defillama: {
+      category: "Dexs",
       slug: "valantis-stex",
       description:
         "The Modular DEX. Live on HyperEVM with STEX, a next-gen AMM design built specific for staked assets.",
@@ -1102,6 +1278,7 @@ const protocols: Protocol[] = [
   {
     id: 69,
     name: "Checkpoint Exchange",
+    category: "Other",
     listedAt: 1778203200,
     module: "adapters/checkpoint.ts",
     portfolioUrl: "https://checkpoint.exchange/leaderboard",
@@ -1117,11 +1294,13 @@ const protocols: Protocol[] = [
   {
     id: 70,
     name: "Pear Protocol",
+    category: "DEX",
     listedAt: 1778203200,
     module: "adapters/pear.ts",
     referralUrl: "https://pear.garden/trade?referral=checkpoint",
     portfolioUrl: "https://app.pear.garden/hypear-points-3",
     defillama: {
+      category: "Derivatives",
       slug: "pear-perps",
       description:
         "Pear Protocol is a decentralized trading platform that streamlines pair-trading of cryptocurrencies by enabling simultaneous leveraged long and short positions in a single on-chain transaction.",
@@ -1134,10 +1313,12 @@ const protocols: Protocol[] = [
   {
     id: 71,
     name: "Saturn",
+    category: "Stables",
     listedAt: 1779045210,
     module: "adapters/saturn.ts",
     portfolioUrl: "https://app.saturn.credit/portfolio",
     defillama: {
+      category: "Stablecoin Wrapper",
       slug: "saturn",
       description:
         "Saturn is a dual-token Bitcoin-backed credit protocol where USDat is a stablecoin backed by tokenized treasuries and sUSDat is a yield-bearing version backed by digital credit exposure.",
@@ -1149,6 +1330,7 @@ const protocols: Protocol[] = [
   {
     id: 72,
     name: "Nado",
+    category: "Other",
     listedAt: 1781166533,
     module: "adapters/nado.ts",
     portfolioUrl: "https://app.nado.xyz/points",
@@ -1165,6 +1347,7 @@ const protocols: Protocol[] = [
   {
     id: 73,
     name: "Fusion",
+    category: "Yield",
     listedAt: 1781166533,
     // Legacy project-wide claim flag did not identify a claimable season.
     claimSeasons: {
@@ -1175,6 +1358,7 @@ const protocols: Protocol[] = [
     portfolioUrl: "https://app.ipor.io/fusion/points",
     referralUrl: "https://app.ipor.io/fusion?f=DUOYDBUAYlyfXpzXFvtX0psw17wd6",
     defillama: {
+      category: "Onchain Capital Allocator",
       slug: "fusion-by-ipor",
       description:
         "Fusion (by IPOR) is a meta DeFi aggregation, execution & intelligence engine that introduces a unified liquidity framework for on-chain asset management. Fusion combines various aggregation and routing protocols into a single smart contract layer, automating asset management and maximizing returns across yield sources. Imagine intelligence-driven execution for looping, carry trades, arbitrage, leveraged farming, and passive lending at your fingertips",
@@ -1186,6 +1370,7 @@ const protocols: Protocol[] = [
   {
     id: 74,
     name: "Hotstuff",
+    category: "Other",
     listedAt: 1781166533,
     module: "adapters/hotstuff.ts",
     portfolioUrl: "https://app.hotstuff.trade/",
@@ -1201,6 +1386,7 @@ const protocols: Protocol[] = [
   {
     id: 75,
     name: "Incentiv",
+    category: "Other",
     listedAt: 1781166533,
     module: "adapters/incentiv.ts",
     portfolioUrl: "https://portal.incentiv.io/",
@@ -1215,6 +1401,7 @@ const protocols: Protocol[] = [
   {
     id: 76,
     name: "Quip",
+    category: "Other",
     listedAt: 1781166533,
     module: "adapters/quip.ts",
     portfolioUrl: "https://quest.quip.network/airdrop",
@@ -1229,6 +1416,7 @@ const protocols: Protocol[] = [
   {
     id: 77,
     name: "oneBanking",
+    category: "Other",
     listedAt: 1781166533,
     module: "adapters/onebanking.ts",
     portfolioUrl: "https://quests.onebanking.app/loyalty",
@@ -1243,11 +1431,13 @@ const protocols: Protocol[] = [
   {
     id: 78,
     name: "Tori Finance",
+    category: "Yield",
     listedAt: 1783575778,
     module: "adapters/tori.ts",
     referralUrl: "https://app.tori.finance/earn?referral=U7UDE",
     portfolioUrl: "https://app.tori.finance/activities",
     defillama: {
+      category: "Basis Trading",
       slug: "tori-finance",
       description:
         "Tori Finance is a synthetic dollar protocol where trUSD is backed by delta-neutral trading positions and can be staked into strUSD to earn yield from those market-neutral strategies.",
@@ -1259,6 +1449,7 @@ const protocols: Protocol[] = [
   {
     id: 79,
     name: "GenLayer",
+    category: "Other",
     listedAt: 1783575778,
     module: "adapters/genlayer.ts",
     referralUrl: "https://portal.genlayer.foundation/?ref=X680U5H3",
@@ -1275,10 +1466,12 @@ const protocols: Protocol[] = [
   {
     id: 80,
     name: "Makina",
+    category: "Yield",
     listedAt: 1783575778,
     module: "adapters/makina.ts",
     portfolioUrl: "https://makina.finance/points",
     defillama: {
+      category: "Onchain Capital Allocator",
       slug: "makina",
       description:
         "Makina the most advanced DeFi Execution Engine empowering sophisticated Operators to execute onchain yield strategies which maximize risk-adjusted return.",
@@ -1290,10 +1483,12 @@ const protocols: Protocol[] = [
   {
     id: 81,
     name: "ShMonad",
+    category: "Staking",
     listedAt: 1783575778,
     module: "adapters/shmonad.ts",
     portfolioUrl: "https://shmonad.xyz/points",
     defillama: {
+      category: "Liquid Staking",
       slug: "shmonad",
       description:
         "Stake MON, get shMON, the liquid staking token that keeps earning + MEV rewards while you commit it to programmable policies. One token secures the network and backs your favourite dApps, all without sacrificing liquidity.",
@@ -1306,6 +1501,7 @@ const protocols: Protocol[] = [
   {
     id: 82,
     name: "AFX Protocol",
+    category: "Other",
     listedAt: 1783575778,
     module: "adapters/afx.ts",
     portfolioUrl: "https://app.afx.xyz/points",
@@ -1321,12 +1517,14 @@ const protocols: Protocol[] = [
   {
     id: 83,
     name: "RE",
+    category: "RWA",
     symbol: "RE",
     listedAt: 1785303450,
     module: "adapters/re.ts",
     referralUrl: "https://app.re.xyz/?ref=checkpoint",
     portfolioUrl: "https://app.re.xyz/points",
     defillama: {
+      category: "RWA",
       slug: "RE",
       description:
         "Re is a decentralized reinsurance protocol that bridges real-world insurance risk on-chain. It pools capital through stablecoins, issues tokenized receipt assets (reUSD, reUSDe), and allocates funds into regulated reinsurance contracts. Returns are generated from underwriting premiums and on-chain yield, with transparent reporting of collateral and performance.",
@@ -1338,6 +1536,7 @@ const protocols: Protocol[] = [
   {
     id: 84,
     name: "Fairground",
+    category: "Other",
     listedAt: 1785303450,
     module: "adapters/fairground.ts",
     portfolioUrl: "https://fairground.fi/421614/rewards",
@@ -1353,6 +1552,7 @@ const protocols: Protocol[] = [
   {
     id: 85,
     name: "Ondo",
+    category: "Other",
     symbol: "ONDO",
     listedAt: 1785303450,
     module: "adapters/ondo.ts",
@@ -1370,6 +1570,7 @@ const protocols: Protocol[] = [
   {
     id: 86,
     name: "Blinq",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/blinq.ts",
     referralUrl: "https://predictions.blinq.fi/?ref=CHECKPOINT",
@@ -1385,6 +1586,7 @@ const protocols: Protocol[] = [
   {
     id: 87,
     name: "Canopy",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/canopy.ts",
     portfolioUrl: "https://www.canopynetwork.org/",
@@ -1399,6 +1601,7 @@ const protocols: Protocol[] = [
   {
     id: 88,
     name: "WheelX",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/wheelx.ts",
     referralUrl: "https://wheelx.fi/r/399015",
@@ -1415,10 +1618,12 @@ const protocols: Protocol[] = [
   {
     id: 89,
     name: "Kintsu",
+    category: "Staking",
     listedAt: 1789453330,
     module: "adapters/kintsu.ts",
     portfolioUrl: "https://www.kintsu.xyz/points",
     defillama: {
+      category: "Liquid Staking",
       slug: "kintsu",
       description:
         "Kintsu is the first liquid staking protocol truly engineered as a public good, without central control. Built to maximize capital efficiency and infuse staking yield into everything, Kintsu unifies liquidity and network security with its novel DAO-curated gauge stake delegation solution.",
@@ -1430,6 +1635,7 @@ const protocols: Protocol[] = [
   {
     id: 90,
     name: "Aegis",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/aegis.ts",
     referralUrl: "https://app.aegis.im/earn?af=bm89chk8jz",
@@ -1446,11 +1652,13 @@ const protocols: Protocol[] = [
   {
     id: 91,
     name: "xStocks",
+    category: "RWA",
     listedAt: 1789453330,
     module: "adapters/xstocks.ts",
     referralUrl: "https://defi.xstocks.fi/points?ref=CHECKPOINT",
     portfolioUrl: "https://defi.xstocks.fi/points",
     defillama: {
+      category: "RWA",
       slug: "xstocks",
       description:
         "All xStocks are freely transferable tokens. They can be used in lending protocols, on DEXs, or any DeFi app. Hold them in your own wallet, or buy on one venue and sell on another. xStocks are built to be usable.",
@@ -1462,12 +1670,14 @@ const protocols: Protocol[] = [
   {
     id: 92,
     name: "Noon",
+    category: "Yield",
     listedAt: 1789453330,
     module: "adapters/noon.ts",
     referralUrl:
       "https://app.noon.capital/get?referralCode=07022292-a5ab-4f49-827c-8622f8323708",
     portfolioUrl: "https://app.noon.capital/points",
     defillama: {
+      category: "Yield",
       slug: "noon",
       description:
         "Noon is a yield optimization protocol that generates delta-neutral returns, maximizes governance token utility, and ensures fair, sustainable value distribution",
@@ -1479,11 +1689,13 @@ const protocols: Protocol[] = [
   {
     id: 93,
     name: "Upshift",
+    category: "Yield",
     listedAt: 1789453330,
     module: "adapters/upshift.ts",
     referralUrl: "https://app.upshift.finance/r/69966112415c",
     portfolioUrl: "https://app.upshift.finance/points",
     defillama: {
+      category: "Onchain Capital Allocator",
       slug: "upshift",
       description:
         "Upshift opens access to transparent yields backed by secure risk controls. Supply, stake and access cross-chain yields.",
@@ -1495,11 +1707,13 @@ const protocols: Protocol[] = [
   {
     id: 94,
     name: "GMTrade",
+    category: "DEX",
     listedAt: 1789453330,
     module: "adapters/gmtrade.ts",
     referralUrl: "https://gmtrade.xyz/r/checkpoint",
     portfolioUrl: "https://gmtrade.xyz/gt",
     defillama: {
+      category: "Derivatives",
       slug: "gmtrade",
       description:
         "GMTrade is a perpetual DEX built on Solana that supports both crypto and RWA markets. The protocol utilizes isolated liquidity pools combined with a cross-pool coordination system that optimizes liquidity utilization. It aims to provide a seamless trading experience with fast execution and low fees while maintaining security and decentralization.",
@@ -1511,6 +1725,7 @@ const protocols: Protocol[] = [
   {
     id: 95,
     name: "Zerion",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/zerion.ts",
     portfolioUrl: "https://app.zerion.io/rewards",
@@ -1525,6 +1740,7 @@ const protocols: Protocol[] = [
   {
     id: 96,
     name: "Pushchain",
+    category: "Other",
     listedAt: 1789453330,
     module: "adapters/pushchain.ts",
     referralUrl: "https://portal.push.org/rewards?ref=7ad2461",
@@ -1541,6 +1757,7 @@ const protocols: Protocol[] = [
   {
     id: 97,
     name: "Katana",
+    category: "Chain",
     listedAt: 1791704041,
     module: "adapters/katana.ts",
     portfolioUrl: "https://app.katana.network/quests",
@@ -1559,6 +1776,7 @@ const protocols: Protocol[] = [
   {
     id: 98,
     name: "Onyx",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/onyx.ts",
     portfolioUrl: "https://app.onyx.org/en/points",
@@ -1576,6 +1794,7 @@ const protocols: Protocol[] = [
   {
     id: 99,
     name: "hylo",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/hylo.ts",
     portfolioUrl: "https://hylo.so/journey",
@@ -1592,11 +1811,13 @@ const protocols: Protocol[] = [
   {
     id: 100,
     name: "Drake",
+    category: "DEX",
     listedAt: 1791704041,
     module: "adapters/drake.ts",
     portfolioUrl: "https://drake.exchange/rewards/points",
     claimAvailable: false,
     defillama: {
+      category: "Derivatives",
       slug: "drake-exchange",
       description:
         "Fully on-chain perpetual exchange on Monad with hybrid CLOB + AMM liquidity and isolated/cross-margin portfolios.",
@@ -1608,12 +1829,14 @@ const protocols: Protocol[] = [
   {
     id: 101,
     name: "Curvance",
+    category: "Lending",
     listedAt: 1791704041,
     module: "adapters/curvance.ts",
     referralUrl: "https://app.curvance.com/bytes?tab=referral&code=checkpoint",
     portfolioUrl: "https://app.curvance.com/bytes",
     claimAvailable: false,
     defillama: {
+      category: "Lending",
       slug: "curvance",
       description:
         "Curvance is Monad's hyper-efficient lending layer, helping users earn more yield and access simple, one-click leverage.",
@@ -1627,6 +1850,7 @@ const protocols: Protocol[] = [
   {
     id: 102,
     name: "Folks Finance",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/folksfinance.ts",
     portfolioUrl: "https://app.folks.finance/points",
@@ -1644,12 +1868,14 @@ const protocols: Protocol[] = [
   {
     id: 103,
     name: "Myriad",
+    category: "Prediction Market",
     listedAt: 1791704041,
     module: "adapters/myriad.ts",
     referralUrl: "https://myriad.markets/?rC=GtWYha",
     portfolioUrl: "https://myriad.markets/leaderboard?sortBy=points",
     claimAvailable: false,
     defillama: {
+      category: "Prediction Market",
       slug: "myriad-markets",
       description:
         "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology",
@@ -1661,12 +1887,14 @@ const protocols: Protocol[] = [
   {
     id: 104,
     name: "BaiBai",
+    category: "DEX",
     listedAt: 1791704041,
     module: "adapters/baibai.ts",
     referralUrl: "https://app.baibai.cx/@checkpoint",
     portfolioUrl: "https://app.baibai.cx/points",
     claimAvailable: false,
     defillama: {
+      category: "Dexs",
       slug: "baibai",
       description:
         "BaiBai is a PropAMM exchange on Base. Market makers stream quotes that are published on-chain as compressed price curves, and swaps settle against maker capital held in the BaiBai custodian.",
@@ -1678,11 +1906,13 @@ const protocols: Protocol[] = [
   {
     id: 105,
     name: "OnRe",
+    category: "RWA",
     listedAt: 1791704041,
     module: "adapters/onre.ts",
     portfolioUrl: "https://app.onre.finance/earn/leaderboard",
     claimAvailable: false,
     defillama: {
+      category: "RWA",
       slug: "onre",
       description:
         "Connecting on-chain capital to real-world reinsurance risk — unlocking stable, uncorrelated returns that are liquid, composable and accessible for the first time",
@@ -1694,6 +1924,7 @@ const protocols: Protocol[] = [
   {
     id: 106,
     name: "Konnex",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/konnex.ts",
     portfolioUrl: "https://hub.konnex.world/points",
@@ -1709,11 +1940,13 @@ const protocols: Protocol[] = [
   {
     id: 107,
     name: "Tydro",
+    category: "Lending",
     listedAt: 1791704041,
     module: "adapters/tydro.ts",
     portfolioUrl: "https://app.tydro.com/markets/",
     claimAvailable: false,
     defillama: {
+      category: "Lending",
       slug: "tydro",
       description:
         "Tydro is a non-custodial lending protocol for onchain capital markets. Powered by Aave and built on Ink",
@@ -1725,6 +1958,7 @@ const protocols: Protocol[] = [
   {
     id: 108,
     name: "Revert",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/revert.ts",
     referralUrl: "https://revert.finance/#/ref/rdjrsm",
@@ -1741,11 +1975,13 @@ const protocols: Protocol[] = [
   {
     id: 109,
     name: "Reflect",
+    category: "Yield",
     listedAt: 1791704041,
     module: "adapters/reflect.ts",
     portfolioUrl: "https://app.reflect.money/points",
     claimAvailable: false,
     defillama: {
+      category: "Yield",
       slug: "reflect-tranches",
       description:
         "Tranches splits a yield-bearing token into a senior tranche (protected, moderate yield) and a junior tranche (amplified yield, absorbs losses first) across the Reflect Proxy Program and the RLP insurance pool.",
@@ -1757,6 +1993,7 @@ const protocols: Protocol[] = [
   {
     id: 110,
     name: "Dawn",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/dawn.ts",
     portfolioUrl: "https://app.infrastructure.finance/portfolio",
@@ -1772,11 +2009,13 @@ const protocols: Protocol[] = [
   {
     id: 111,
     name: "Neverland",
+    category: "Lending",
     listedAt: 1791704041,
     module: "adapters/neverland.ts",
     portfolioUrl: "https://app.neverland.money/leaderboard",
     claimAvailable: false,
     defillama: {
+      category: "Lending",
       slug: "neverland",
       description:
         "Neverland is a next-generation, Monad-native lending protocol fusing the most secure, battle-tested lending technology with proprietary veTokenomics that allow users to direct 100% of protocol revenue. Featuring self-repaying loans, flexible and tradable governance locks, and automated yield strategies, each designed to maximize capital efficiency and long-term alignment",
@@ -1789,6 +2028,7 @@ const protocols: Protocol[] = [
   {
     id: 112,
     name: "KittenSwap",
+    category: "Other",
     listedAt: 1791704041,
     module: "adapters/kittenswap.ts",
     portfolioUrl: "https://app.kittenswap.finance/points",
