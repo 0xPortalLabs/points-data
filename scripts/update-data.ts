@@ -1,5 +1,6 @@
 import type { Protocol } from "../src/types.ts";
 import protocols from "../src/data.ts";
+import { resolveCategory } from "../src/classification.ts";
 
 import { exec } from "node:child_process";
 import * as path from "node:path";
@@ -11,6 +12,12 @@ const DATA_FILE = path.join(
   "src",
   "data.ts",
 );
+
+const classify = (protocol: Protocol): Protocol => {
+  const { category, issues } = resolveCategory(protocol);
+  issues.forEach((issue) => console.warn(`[${protocol.name}] ${issue}`));
+  return { ...protocol, category };
+};
 
 const getProtocol = async (
   slug: string,
@@ -44,13 +51,35 @@ const getProtocol = async (
     const updatedProtocols = await Promise.all(
       protocols.map(async (protocol: Protocol) => {
         const { defillama } = protocol;
-        if (!defillama?.slug) return protocol;
+        if (!defillama?.slug) {
+          return classify({
+            ...protocol,
+            ...(defillama
+              ? { defillama: { ...defillama, category: undefined } }
+              : {}),
+          });
+        }
 
         const llama = defillama.isChain
           ? chainsMap.get(defillama.slug)
           : await getProtocol(defillama.slug, protocolsMap);
-        if (!llama) {
+        if (!llama?.name) {
           throw new Error(`did not find protocol: ${defillama.slug}`);
+        }
+
+        if (
+          llama.category != null &&
+          (typeof llama.category !== "string" || !llama.category.trim())
+        ) {
+          throw new Error(`invalid category: ${defillama.slug}`);
+        }
+        if (!defillama.isChain && llama.slug && llama.slug !== defillama.slug) {
+          throw new Error(`unexpected protocol slug: ${llama.slug}`);
+        }
+        if (String(llama.id).startsWith("parent#")) {
+          console.warn(
+            `[${protocol.name}] Parent listing; no child category is inferred`,
+          );
         }
 
         let symbol: string | undefined;
@@ -71,18 +100,20 @@ const getProtocol = async (
           symbol = llama.symbol !== "-" ? llama.symbol : undefined;
         }
 
-        protocol.symbol = symbol;
+        // Supplied project metadata takes priority; upstream only fills gaps.
+        protocol.symbol = protocol.symbol || symbol;
 
-        return {
+        return classify({
           ...protocol,
           defillama: {
-            ...protocol.defillama,
+            ...defillama,
+            category: llama.category ?? undefined,
             description: defillama.description || llama.description || "",
-            logo: defillama.logo || logo,
+            logo: defillama.logo || logo || null,
             twitter: defillama.twitter || llama?.twitter,
             url: defillama.url || llama.url!,
           },
-        };
+        });
       }),
     );
 
