@@ -2042,6 +2042,25 @@ const protocols: Protocol[] = [
     },
     symbol: "KITTEN",
   },
+  {
+    id: 113,
+    name: "AntSeed",
+    category: "Other",
+    listedAt: 1793079041,
+    module: "adapters/antseed.ts",
+    portfolioUrl: "https://antseedpoints.com/",
+    claimAvailable: false,
+    defillama: {
+      category: "Decentralized AI",
+      slug: "antseed",
+      description:
+        "A decentralized peer-to-peer marketplace where buyers purchase AI inference and other AI services directly from independent providers, with payments settled in USDC on Base.",
+      logo: "https://icons.llamao.fi/icons/protocols/antseed",
+      twitter: "antseed",
+      url: "https://antseedpoints.com/",
+    },
+    symbol: "ANTS",
+  },
 ];
 
 export default protocols;
