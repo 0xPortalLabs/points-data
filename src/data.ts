@@ -2080,6 +2080,27 @@ const protocols: Protocol[] = [
       url: "https://mezz.finance/",
     },
   },
+  {
+    id: 115,
+    name: "Montra",
+    category: "Launchpad",
+    categoryOverride: {
+      category: "Launchpad",
+      reason: "Montra is a token launchpad on Elysium without a DeFiLlama listing.",
+      source: "https://montramarkets.xyz/",
+    },
+    listedAt: 1793861153,
+    module: "adapters/montra.ts",
+    portfolioUrl: "https://montramarkets.xyz/airdrop",
+    claimAvailable: false,
+    defillama: {
+      slug: "",
+      description: "The house of all launches on Elysium",
+      logo: null,
+      twitter: "MontraXYZ",
+      url: "https://montramarkets.xyz/",
+    },
+  },
 ];
 
 export default protocols;
