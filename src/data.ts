@@ -2061,6 +2061,25 @@ const protocols: Protocol[] = [
     },
     symbol: "ANTS",
   },
+  {
+    id: 114,
+    name: "Mezzanine",
+    category: "Yield",
+    listedAt: 1793848481,
+    module: "adapters/mezzanine.ts",
+    referralUrl: "https://app.mezz.finance/points_and_referral?code=CHECKPOINT",
+    portfolioUrl: "https://app.mezz.finance/points_and_referral",
+    claimAvailable: false,
+    defillama: {
+      category: "Yield",
+      slug: "mezzanine",
+      description:
+        "Structured yield protocol offering senior and junior tranches with different risk and return profiles.",
+      logo: "https://icons.llamao.fi/icons/protocols/mezzanine",
+      twitter: "mezzanine_fi",
+      url: "https://mezz.finance/",
+    },
+  },
 ];
 
 export default protocols;
