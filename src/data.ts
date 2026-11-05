@@ -2095,7 +2095,7 @@ const protocols: Protocol[] = [
     claimAvailable: false,
     defillama: {
       slug: "",
-      description: "the house of all launches on @Enter_Elysium",
+      description: "The house of all launches on Elysium",
       logo: null,
       twitter: "MontraXYZ",
       url: "https://montramarkets.xyz/",
