@@ -63,6 +63,7 @@ export interface Protocol {
     category?: string;
     description: string;
     logo: string | null;
+    /** Reviewed X handle; an empty string intentionally disables the social link. */
     twitter?: string;
     url: string;
   };
