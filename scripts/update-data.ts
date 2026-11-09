@@ -110,7 +110,7 @@ const getProtocol = async (
             category: llama.category ?? undefined,
             description: defillama.description || llama.description || "",
             logo: defillama.logo || logo || null,
-            twitter: defillama.twitter ?? llama?.twitter,
+            twitter: defillama.twitter ?? (llama?.twitter || undefined),
             url: defillama.url || llama.url!,
           },
         });
